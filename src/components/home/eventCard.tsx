@@ -42,7 +42,7 @@ const EventCard = ({event}: {event: {
             </div>
             <div style={{ marginTop: 'auto' }}>
                 <Anchor href={event.link} target="_blank" w={"100%"}>
-                    <Button color="accent9" variant="light" radius="md" mt="md" fullWidth bg="var(--mantine-color-accent-1)">
+                    <Button color="primary.9" variant="light" radius="md" mt="md" fullWidth bg="var(--mantine-color-accent-1)">
                         View Event
                     </Button>
                 </Anchor>
