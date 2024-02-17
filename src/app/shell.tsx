@@ -1,11 +1,14 @@
 "use client";
 import React from 'react'
-import { AppShellMain, AppShell, AppShellNavbar, AppShellHeader, Group, Burger, Divider, MantineProvider, Title, Anchor, Center, ActionIcon } from '@mantine/core';
-import Navlink from './navlink';
+import { AppShellMain, AppShell, AppShellNavbar, AppShellHeader, Group, Divider, MantineProvider } from '@mantine/core';
+import { theme } from '../../theme';
+import Footer from '@/components/navbar/footer';
 import { useDisclosure } from '@mantine/hooks';
-import { IconHome, IconInfoCircle, IconTools, IconMessage } from '@tabler/icons-react';
-import { theme } from '../../../theme';
-import Footer from './footer';
+import Navlink from '@/components/navbar/navlink';
+import { IconInfoCircle, IconTools, IconMessage } from '@tabler/icons-react';
+import Navbar from '@/components/navbar/navbar';
+import SocialLinks from '@/components/socialLinks';
+
 
 
 const links = [
@@ -36,12 +39,14 @@ const links = [
   }
 ]
 
-const Navbar = ({
+
+const Shell = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
   const [opened, {open, close, toggle}] = useDisclosure();
+
   return (
     <MantineProvider theme={theme}>
       <AppShell
@@ -53,28 +58,7 @@ const Navbar = ({
           }}
         >
         <AppShellHeader >
-          <div style={{display: 'flex', alignItems: 'center', height: '100%'}}>
-            <div style={{width: '100%'}}>
-              <Group px={30} justify='space-between' hiddenFrom="sm" w="100%">
-                <Burger onClick={toggle} opened={opened} aria-label="Toggle navigation"  size="md"/>
-                <Anchor href="/" c="gray.9">
-                    <IconHome color="var(--mantine-color-gray-9)" size={30}/>
-                </Anchor>
-              </Group>
-              <Group justify="flex-start" align='center' px={200} visibleFrom='sm'>
-                <Anchor href="/">
-                  <Title order={1} fw="800">
-                    DUU VisArts
-                  </Title>
-                </Anchor>
-              </Group>
-              <Group px={200} visibleFrom='sm'>
-                  {links.map((link, key) => (
-                      <Navlink name={link.name} key={key} link={link.link}/>
-                  ))}
-              </Group>
-            </div>
-          </div>
+          <Navbar links={links} toggle={toggle} opened={opened} />
         </AppShellHeader>
         <AppShellMain>
           {children}
@@ -99,4 +83,4 @@ const Navbar = ({
   )
 }
 
-export default Navbar;
+export default Shell;

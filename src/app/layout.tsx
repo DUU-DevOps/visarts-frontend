@@ -4,7 +4,7 @@ import React from 'react';
 import { ColorSchemeScript } from '@mantine/core';
 import {Open_Sans} from 'next/font/google';
 import './globals.css'
-import Shell from "../components/navbar/shell";
+import Shell from "./shell";
 import '@mantine/carousel/styles.css';
 
 
@@ -21,8 +21,6 @@ export const metadata: Metadata = {
   title: "DUU VisArts" ,
   description: "DUU VisArts is a student-run organization at Duke University that provides resources and opportunities for students interested in visual arts. We host workshops, exhibitions, and other events to foster a community of artists and art enthusiasts.",
 };
-
-
 
 
 
