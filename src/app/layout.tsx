@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import '@mantine/core/styles.css';
 import React from 'react';
-import { MantineProvider, ColorSchemeScript } from '@mantine/core';
-import { theme } from '../../theme';
+import { ColorSchemeScript } from '@mantine/core';
 import {Open_Sans} from 'next/font/google';
 import './globals.css'
-import Shell from "../components/navbar/navbar";
+import Shell from "../components/navbar/shell";
+import '@mantine/carousel/styles.css';
 
 
 
@@ -42,9 +42,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <MantineProvider theme={theme}  defaultColorScheme="dark">
-          <Shell>{children}</Shell>
-        </MantineProvider>
+        <Shell>{children}</Shell>
       </body>
     </html>
   );
