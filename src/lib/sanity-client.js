@@ -1,8 +1,10 @@
 
+const PROJECT_ID='iwi3amti'
+const DATASET='production'
 
 export function createURL (type) {
   let QUERY = encodeURIComponent(`*[_type == "${type}"]`);
-  let url = `https://${process.env.PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${process.env.DATASET}?query=${QUERY}`;
+  let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
   return url;
 }
 
@@ -10,7 +12,7 @@ export function createURL (type) {
 export function grabImage (source) {
     const link = source.asset._ref.slice(6, source.asset._ref.lastIndexOf('-'));
     const filetype = source.asset._ref.slice(source.asset._ref.lastIndexOf('-') + 1, source.asset._ref.length);
-    let url =  `https://cdn.sanity.io/images/${process.env.PROJECT_ID}/${process.env.DATASET}/${link}.${filetype}`;
+    let url =  `https://cdn.sanity.io/images/${PROJECT_ID}/${DATASET}/${link}.${filetype}`;
     return url;
 }
 
@@ -18,7 +20,7 @@ export function grabImage (source) {
 export const grabFile = (source) => {
   const ref = source.asset._ref;
   const link = ref.slice(ref.indexOf('-') + 1, ref.lastIndexOf('-'));
-  return `https://cdn.sanity.io/files/${process.env.PROJECT_ID}/${process.env.DATASET}/${link}.pdf`;
+  return `https://cdn.sanity.io/files/${PROJECT_ID}/${DATASET}/${link}.pdf`;
 }
 
 
