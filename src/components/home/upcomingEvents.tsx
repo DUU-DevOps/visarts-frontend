@@ -1,10 +1,10 @@
 "use client";
 import React from 'react'
-import { Grid, GridCol, Title, Text, Stack, Center, Button, Anchor } from '@mantine/core';
+import { Grid, GridCol, Title, Text, Stack, Center, Button, Anchor, Group } from '@mantine/core';
 import EventCarousel from './eventCarousel';
 
 
-const UpcomingEvents = ({ events }:
+const UpcomingEvents = ({ events, text }:
     {
         events: {
             summary: string,
@@ -13,7 +13,8 @@ const UpcomingEvents = ({ events }:
             description: string,
             image: string,
             link: string
-        }[]
+        }[],
+        text: string
     }) => {
     return (
         <Grid gutter="none" justify='space-apart'>
@@ -26,11 +27,13 @@ const UpcomingEvents = ({ events }:
                                     Upcoming Events
                                 </Title>
                             </Center>
-                            <Center >
-                                <Text size='lg' ta="center">
-                                    Check out our upcoming events and join us for some fun and creativity!
-                                </Text>
-                            </Center>
+                            {text && text.length > 0 &&
+                                <Center >
+                                    <Text size='lg' ta="center">
+                                        {text}
+                                    </Text>
+                                </Center>
+                            }
                         </Stack>
                     </GridCol>
                     <GridCol span={{ base: 12, md: 6 }}>

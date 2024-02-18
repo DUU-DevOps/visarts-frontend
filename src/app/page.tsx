@@ -19,6 +19,7 @@ export default async function Home() {
   }
   const upcomingEventsData = await getUpcomingEventsData();
   const upcomingEvents = upcomingEventsData.events;
+  console.log(siteInfo.figureDrawingText)
   return (
     <main>
       <section>
@@ -48,17 +49,17 @@ export default async function Home() {
       </section>
       <section>
       <ContentBlock
-          title="Get Involved" 
-          text={siteInfo.getInvolvedText} 
-          image={siteInfo.getInvolvedImage} 
+          title="Figure Drawing" 
+          text={siteInfo.figureDrawingText} 
+          image={siteInfo.figureDrawingImage} 
           imageSpan={8} 
           textSpan={4} 
           orientation="left"
           color='var(--mantine-color-accent-1)'
-          link='/get-involved' />
+          link={siteInfo.eventsLink} />
       </section>
       <section style={{ marginBottom: '2rem' }}>
-        <UpcomingEvents events={upcomingEvents} />
+        <UpcomingEvents events={upcomingEvents} text={siteInfo.eventsText}/>
       </section>
     </main>
   );

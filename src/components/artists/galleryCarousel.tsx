@@ -26,8 +26,8 @@ const GalleryCarousel = ({gallery, handleClick}: {gallery: any, handleClick: (im
         >
             {
                 gallery && gallery.map((image:any, key:number) => (
-                    <UnstyledButton onClick={() => handleClick(image)}>
-                        <CarouselSlide key={key} >
+                    <UnstyledButton onClick={() => handleClick(image)} key={key}>
+                        <CarouselSlide >
                             <Image src={grabImage(image.image)} height={"300"} w="100%" />
                         </CarouselSlide>
                     </UnstyledButton>
