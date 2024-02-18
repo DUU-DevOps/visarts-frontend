@@ -1,10 +1,8 @@
 
-const PROJECT_ID='iwi3amti';
-const DATASET='production';
 
 export function createURL (type) {
   let QUERY = encodeURIComponent(`*[_type == "${type}"]`);
-  let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+  let url = `https://${process.env.PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${process.env.DATASET}?query=${QUERY}`;
   return url;
 }
 

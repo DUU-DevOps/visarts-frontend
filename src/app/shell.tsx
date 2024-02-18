@@ -1,13 +1,11 @@
 "use client";
-import React from 'react'
+import React, { ReactNode } from 'react'
 import { AppShellMain, AppShell, AppShellNavbar, AppShellHeader, Group, Divider, MantineProvider } from '@mantine/core';
-import { theme } from '../../theme';
-import Footer from '@/components/navbar/footer';
-import { useDisclosure } from '@mantine/hooks';
+import Footer from '@/components/footer';
 import Navlink from '@/components/navbar/navlink';
 import { IconInfoCircle, IconTools, IconMessage } from '@tabler/icons-react';
 import Navbar from '@/components/navbar/navbar';
-import SocialLinks from '@/components/socialLinks';
+import { useDisclosure } from '@mantine/hooks';
 
 
 
@@ -41,35 +39,30 @@ const links = [
 
 
 const Shell = ({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) => {
-  const [opened, {open, close, toggle}] = useDisclosure();
+  children }: { children: ReactNode }) => {
+
+  const [opened, { open, close, toggle }] = useDisclosure();
 
   return (
-    <MantineProvider theme={theme}>
+    <>
       <AppShell
-          header={{ height: 160 }}
-          navbar={{
-            width: 10,
-            breakpoint: 'sm',
-            collapsed: { desktop: true, mobile: !opened },
-          }}
-        >
+        header={{ height: 160 }}
+        navbar={{
+          width: 10,
+          breakpoint: 'sm',
+          collapsed: { desktop: true, mobile: !opened },
+        }}
+      >
         <AppShellHeader >
           <Navbar links={links} toggle={toggle} opened={opened} />
         </AppShellHeader>
-        <AppShellMain>
-          {children}
-        </AppShellMain>
-        <AppShellNavbar  hiddenFrom="sm" w={300}>
+        <AppShellNavbar hiddenFrom="sm" w={300}>
           {
             links.map((link, key) => (
               <div key={key} >
-                <div style={{marginLeft: '5rem'}}>
+                <div style={{ marginLeft: '5rem' }}>
                   <Group>
-                    <Navlink name={link.name}  icon={link.icon} link={link.link} />
+                    <Navlink name={link.name} icon={link.icon} link={link.link} />
                   </Group>
                 </div>
                 <Divider />
@@ -77,10 +70,15 @@ const Shell = ({
             ))
           }
         </AppShellNavbar>
+        <AppShellMain className='main'>
+          {children}
+        </AppShellMain>
       </AppShell>
       <Footer />
-    </MantineProvider>
+    </>
   )
 }
 
 export default Shell;
+
+

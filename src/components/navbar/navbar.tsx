@@ -1,26 +1,20 @@
 import React from 'react'
 import { IconHome } from '@tabler/icons-react';
 import Navlink from './navlink';
-import { Group, Burger, Anchor,  Title, Center} from '@mantine/core';
-import { useEffect } from 'react';
-import { createURL, getData } from '@/lib/sanity-client';
+import { Group, Burger, Anchor,  Title} from '@mantine/core';
 import SocialLinks from '../socialLinks';
+import { createURL, getData } from '@/lib/sanity-client';
 
 
-
-const Navbar = ({links, toggle, opened}: {
+const Navbar = async ({links, toggle, opened}: {
     links: { name: string, link: string }[],
     toggle: () => void,
     opened: boolean
 }) => {
     
     const socialLinksURL = createURL('socialLink');
-    const [socialLinks, setSocialLinks] = React.useState([]);
-    useEffect(() => {
-        getData(socialLinksURL).then((data) => {
-            setSocialLinks(data.result);
-        })
-    }, [])
+    const socialLinksData = await getData(socialLinksURL);
+    const socialLinks = socialLinksData.result;
 
 
     return (
@@ -38,8 +32,8 @@ const Navbar = ({links, toggle, opened}: {
                             DUU VisArts
                         </Title>
                     </Anchor>
-                    <div style={{marginTop: '1rem'}}>
-                        <SocialLinks socialLinks={socialLinks} color="var(--mantine-color-gray-9)"/>
+                    <div style={{ marginTop: '1rem' }}>
+                        <SocialLinks socialLinks={socialLinks} color="var(--mantine-color-gray-9)" />
                     </div>
                 </Group>
                 <Group px={200} visibleFrom='sm'>

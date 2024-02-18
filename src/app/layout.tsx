@@ -4,9 +4,8 @@ import React from 'react';
 import { ColorSchemeScript } from '@mantine/core';
 import {Open_Sans} from 'next/font/google';
 import './globals.css'
-import Shell from "./shell";
 import '@mantine/carousel/styles.css';
-
+import Provider from "./provider";
 
 
 const openSans = Open_Sans({
@@ -40,7 +39,9 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <Shell>{children}</Shell>
+        <Provider>
+          {children}
+        </Provider>
       </body>
     </html>
   );
