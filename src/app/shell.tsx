@@ -1,6 +1,6 @@
 "use client";
 import React, { ReactNode } from 'react'
-import { AppShellMain, AppShell, AppShellNavbar, AppShellHeader, Group, Divider, MantineProvider } from '@mantine/core';
+import { AppShellMain, AppShell, AppShellNavbar, AppShellHeader, Group, Divider } from '@mantine/core';
 import Footer from '@/components/footer';
 import Navlink from '@/components/navbar/navlink';
 import { IconInfoCircle, IconTools, IconMessage } from '@tabler/icons-react';

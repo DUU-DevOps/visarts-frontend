@@ -1,5 +1,5 @@
-import { Modal, Portal, Title, Text, CardSection, Card, Image } from '@mantine/core'
-import { grabImage } from '@/lib/sanity-client'
+import { Modal, Title, Text, CardSection, Card, Image } from '@mantine/core'
+import { grabImage } from '@/lib/sanityClient'
 import React from 'react'
 
 const PersonModal = ({ person, opened, close, title }:

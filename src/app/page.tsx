@@ -1,6 +1,6 @@
 import LandingScreen from "@/components/home/landingScreen";
-import { createURL, getData } from "@/lib/sanity-client";
-import { getUpcomingEventsData } from "@/lib/calendar-client";
+import { createURL, getData } from "@/lib/sanityClient";
+import { getUpcomingEventsData } from "@/lib/calendarClient";
 import UpcomingEvents from "@/components/home/upcomingEvents";
 import ContentBlock from "@/components/home/contentBlock";
 

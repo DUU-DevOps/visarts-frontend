@@ -1,10 +1,9 @@
-import { createURL, getData } from "@/lib/sanity-client";
-import { Grid, GridCol, Title, Center, Group, Text } from "@mantine/core";
-import PersonCard from "./personCard";
+import { createURL, getData } from "@/lib/sanityClient";
+import { Title } from "@mantine/core";
 import MeetUs from "@/components/meet-us/meetUs";
 
 
-export default async function Home() {
+export default async function Meet() {
 
     const peopleURL = createURL('people');
     const peopleData = await getData(peopleURL);

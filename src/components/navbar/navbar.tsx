@@ -3,7 +3,7 @@ import { IconHome } from '@tabler/icons-react';
 import Navlink from './navlink';
 import { Group, Burger, Anchor,  Title} from '@mantine/core';
 import SocialLinks from '../socialLinks';
-import { createURL, getData } from '@/lib/sanity-client';
+import { createURL, getData } from '@/lib/sanityClient';
 
 
 const Navbar = async ({links, toggle, opened}: {

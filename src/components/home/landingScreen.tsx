@@ -1,5 +1,5 @@
 import React from 'react'
-import {grabImage} from "../../lib/sanity-client";
+import {grabImage} from "../../lib/sanityClient";
 import { Avatar, Group, Title, Text } from '@mantine/core';
 
 

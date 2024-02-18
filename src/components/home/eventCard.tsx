@@ -1,6 +1,6 @@
 import React from 'react'
 import {Card, Title, Text, Group, Spoiler, CardSection, Image, Anchor, Badge, Button} from '@mantine/core'
-import { fixImageURL } from '@/lib/calendar-client'
+import { fixImageURL } from '@/lib/calendarClient'
 
 const EventCard = ({event}: {event: {
     summary: string,
@@ -22,6 +22,7 @@ const EventCard = ({event}: {event: {
             <CardSection>
                 <Image 
                 src={fixImageURL(event.image)}
+                height={200}
                 />
             </CardSection>
             <div style={{maxHeight: "15%"}}>
@@ -36,8 +37,8 @@ const EventCard = ({event}: {event: {
                 </Badge>
             </Group>
             <div style={{  }}>
-                <Spoiler hideLabel="Read Less" showLabel="Read More" maxHeight={300}>
-                    <Text c={"accent.1"}>{event.description}</Text>
+                <Spoiler hideLabel="Read Less" showLabel="Read More" maxHeight={200}>
+                    <Text c={"accent.1"} size='sm'>{event.description}</Text>
                 </Spoiler>
             </div>
             <div style={{ marginTop: 'auto' }}>

@@ -1,6 +1,6 @@
 import { Center, Grid, GridCol, Stack, Title, Anchor, Image } from '@mantine/core';
 import React from 'react'
-import { grabImage } from '@/lib/sanity-client';
+import { grabImage } from '@/lib/sanityClient';
 import ImageCollage from './imageCollage';
 
 const ContentBlock = ({title, text, image, images, textSpan, imageSpan, orientation, link, color} : {

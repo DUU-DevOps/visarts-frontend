@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, CardSection, Image, Text, UnstyledButton } from '@mantine/core';
-import { grabImage } from '@/lib/sanity-client';
+import { grabImage } from '@/lib/sanityClient';
 
 const PersonCard = ({ person, onClick }: {
     person: {
@@ -12,15 +12,16 @@ const PersonCard = ({ person, onClick }: {
     onClick: () => void
 }) => {
     return (
-        <Card >
+        <Card>
             <UnstyledButton onClick={onClick}>
                 <CardSection>
-                        <Image
-                            src={person.image.asset && grabImage(person.image)}
-                            h={160}
-                            alt={person.name}
-                            onClick={onClick}
-                        />
+                    <Image
+                        src={person.image.asset && grabImage(person.image)}
+                        h={300}
+                        w={300}
+                        alt={person.name}
+                        onClick={onClick}
+                    />
                 </CardSection>
             </UnstyledButton>
             <Text fw={500} size="lg" mt="md">
