@@ -9,6 +9,13 @@ export function createURL (type) {
 }
 
 
+export function createURLById(type, itemId) {
+  let QUERY = encodeURIComponent(`*[_type == "${type}" && _id == "${itemId}"]`);
+  let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+  return url;
+}
+
+
 export function grabImage (source) {
     const link = source.asset._ref.slice(6, source.asset._ref.lastIndexOf('-'));
     const filetype = source.asset._ref.slice(source.asset._ref.lastIndexOf('-') + 1, source.asset._ref.length);

@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import { Grid, GridCol, Center } from "@mantine/core";
-import PersonCard from '@/app/meet-us/personCard';
+import PersonCard from '@/components/meet-us/personCard';
 import { useState } from 'react';
 import PersonModal from './personModal';
 
