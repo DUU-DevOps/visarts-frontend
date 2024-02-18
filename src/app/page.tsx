@@ -19,7 +19,6 @@ export default async function Home() {
   }
   const upcomingEventsData = await getUpcomingEventsData();
   const upcomingEvents = upcomingEventsData.events;
-  console.log(siteInfo.figureDrawingText)
   return (
     <main>
       <section>

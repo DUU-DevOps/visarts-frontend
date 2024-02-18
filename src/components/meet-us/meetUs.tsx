@@ -37,7 +37,7 @@ const MeetUs = ({ people }: {
         <Center>
             <Grid gutter="none" mr="0" pr="0" >
                 {people.map((person: any, key: any) => (
-                    <GridCol span={3} p={20} key={key} style={{ display: 'flex', justifyContent: 'center' }}>
+                    <GridCol span={{base: 6, md: 3, xl: 2}} p={20} key={key} style={{ display: 'flex', justifyContent: 'center' }}>
                         <PersonCard person={person} key={key} onClick={() => handleOpen(person)} />
                     </GridCol>
                 ))}

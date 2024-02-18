@@ -5,6 +5,8 @@ import GalleryCarousel from './galleryCarousel';
 import { grabImage } from '@/lib/sanityClient';
 import { useState } from 'react';
 import ImageModal from './imageModal';
+import SocialLinks from '../socialLinks';
+
 
 const Artist = ({ artist }:
     {
@@ -14,7 +16,8 @@ const Artist = ({ artist }:
             Image: {
                 asset: object
             },
-            imagesGallery: any
+            imagesGallery: any,
+            socialLinks: any
         }
     }) => {
     const [opened, setOpened] = useState(false);
@@ -43,6 +46,7 @@ const Artist = ({ artist }:
                         <Text mt="md" c="gray.2">
                             {artist.blurb}
                         </Text>
+                        <SocialLinks socialLinks={artist.socialLinks} color="var(--mantine-color-gray-3)"/>
                     </Stack>
                 </GridCol>
             </Grid>

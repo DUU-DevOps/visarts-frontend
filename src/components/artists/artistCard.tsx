@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardSection, Image, Text, Title, Anchor, UnstyledButton } from '@mantine/core';
+import { Card, CardSection, Image, Text, Title, Anchor, UnstyledButton, Group } from '@mantine/core';
 import { grabImage } from '@/lib/sanityClient';
 
 const ArtistCard = ({artist} : {
@@ -11,10 +11,9 @@ const ArtistCard = ({artist} : {
     }
 }) => {
     return (
-        <Anchor href={`/artist/${artist._id}`}>
             <Card
                 padding="xl"
-                bg='secondary.2'
+                bg='accent.0'
                 h="100%"
             >
                 <CardSection>
@@ -24,14 +23,20 @@ const ArtistCard = ({artist} : {
                             alt={artist.name}
                         />
                 </CardSection>
-                <Title order={3} mt="md" c="gray.9" fw="600">
+                <Title order={3} mt='md' c="gray.9" fw="600">
                     {artist.name}
                 </Title>
-                <Text mt="md" size="sm" c="gray.8">
+                <Text mt="md" size="sm" c="gray.8" mb="md">
                     {artist.blurb}
                 </Text>
+                <div style={{marginTop: 'auto'}}>
+                    <Anchor href={`/artist/${artist._id}`}>
+                        <Text fw={700}>
+                            {`Click to View ${artist.name.split(' ')[0]}'s Work`}
+                        </Text>
+                    </Anchor>
+                </div>
             </Card>
-        </Anchor>
     )
 }
 

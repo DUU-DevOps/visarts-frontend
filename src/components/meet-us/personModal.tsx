@@ -18,13 +18,13 @@ const PersonModal = ({ person, opened, close, title }:
             <Modal opened={opened} onClose={close} size="xl" 
             styles={{
                 body: {
-                    backgroundColor: 'var(--mantine-color-primary-7)'
+                    backgroundColor: 'var(--mantine-color-accent-1)'
                 },
                 header: {
-                    backgroundColor: 'var(--mantine-color-primary-7)',
+                    backgroundColor: 'var(--mantine-color-accent-1)',
                 },
                 close: {
-                    color: 'var(--mantine-color-gray-3)',
+                    color: 'var(--mantine-color-gray-9)',
                 }
             }}>
                 <Card
@@ -38,13 +38,13 @@ const PersonModal = ({ person, opened, close, title }:
                     alt={person.name}
                     />
                 </CardSection>
-                <Title order={3}  mt="md" c="gray.0" fw="600">
+                <Title order={3}  mt="xl" c="gray.9" fw="600">
                     {person.name}
                 </Title>
-                <Text mt="xs" size="md" c="gray.3">
+                <Text mt="xs" size="lg" c="gray.7">
                     {person.title}
                 </Text>
-                <Text mt="md" c="gray.0">
+                <Text mt="md" c="gray.8">
                     {person.bio}
                 </Text>
                 </Card>

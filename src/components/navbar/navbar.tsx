@@ -27,8 +27,8 @@ const Navbar = async ({links, toggle, opened}: {
                     </Anchor>
                 </Group>
                 <Group justify="space-between" align='center' px={200} w="100%" visibleFrom='sm'>
-                    <Anchor href="/">
-                        <Title order={1} fw="800">
+                    <Anchor href="/" c="var(--mantine-color-primary-8)" >
+                        <Title order={1} fw="800" >
                             DUU VisArts
                         </Title>
                     </Anchor>

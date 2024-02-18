@@ -1,6 +1,8 @@
-import { createURL, getData } from "@/lib/sanityClient";
+import { createURL, getData, grabImage } from "@/lib/sanityClient";
 import { Title } from "@mantine/core";
 import MeetUs from "@/components/meet-us/meetUs";
+import { Center, Anchor, Grid, GridCol, Stack, Image } from '@mantine/core';
+import TitleBlock from "@/components/titleBlock";
 
 
 export default async function Meet() {
@@ -9,10 +11,18 @@ export default async function Meet() {
     const peopleData = await getData(peopleURL);
     const people = peopleData.result;
 
+    const settingsURL = createURL("siteSettings");
+    const settingsData = await getData(settingsURL);
+    const siteInfo = settingsData.result[0];
+
     return (
         <div>
-            <Title p={20} order={1}>Meet Us</Title>
-            <MeetUs people={people} />
+            <section>
+                <TitleBlock title="Meet Us" text={siteInfo.meetUsText} image={siteInfo.meetUsImage} color="var(--mantine-color-primary-4)" orientation="right" />
+            </section>
+            <section>
+                <MeetUs people={people} />
+            </section>
         </div>
     )
 

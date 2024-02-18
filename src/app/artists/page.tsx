@@ -2,6 +2,7 @@ import React from "react";
 import {getData, createURL} from "@/lib/sanityClient";
 import { Title, Grid, GridCol } from "@mantine/core";
 import ArtistCard from "@/components/artists/artistCard";
+import TitleBlock from "@/components/titleBlock";
 
 export default async function Artists() {
 
@@ -9,16 +10,25 @@ export default async function Artists() {
     const artistsData = await getData(artistsURL);
     const artists = artistsData.result;
 
+    const settingsURL = createURL("siteSettings");
+    const settingsData = await getData(settingsURL);
+    const siteInfo = settingsData.result[0];
+
     return (
         <div>
-            <Title p={20} order={1}>Artists</Title>
-            <Grid gutter='none' align="stretch">
-                {artists.map((artist : any, key : number) => (
-                    <GridCol key={key} span={4} p ={20}>
-                        <ArtistCard artist={artist} />
-                    </GridCol>
-                ))}
-            </Grid>
+            <section>
+                <TitleBlock title="Artist Spotlight" text={siteInfo.spotlightText} image={siteInfo.spotlightImage} 
+                color="var(--mantine-color-secondary-3)" orientation="left" />
+            </section>
+            <section>
+                <Grid gutter='none' align="stretch">
+                    {artists.map((artist : any, key : number) => (
+                        <GridCol key={key} span={4} p ={20}>
+                            <ArtistCard artist={artist} />
+                        </GridCol>
+                    ))}
+                </Grid>
+            </section>
         </div>
     )
 
