@@ -35,7 +35,7 @@ const ContentBlock = ({title, text, image, images, textSpan, imageSpan, orientat
                                 <Title order={1} style={{textAlign: 'left'}}>
                                     {title}
                                 </Title>
-                                <Title order={4} style={{textAlign: 'left'}} fw="700" fs="10vw">
+                                <Title order={5} style={{textAlign: 'left'}} fw="700" fs="10vw">
                                     {text}
                                 </Title>
                             </Stack>
@@ -54,7 +54,7 @@ const ContentBlock = ({title, text, image, images, textSpan, imageSpan, orientat
                                 <Title order={1} style={{textAlign: 'left'}}>
                                     {title}
                                 </Title>
-                                <Title order={4} style={{textAlign: 'left'}} fw="700" fs="10vw">
+                                <Title order={5} style={{textAlign: 'left'}} fw="700" fs="10vw">
                                     {text}
                                 </Title>
                             </Stack>

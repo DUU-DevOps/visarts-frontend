@@ -17,7 +17,7 @@ export default async function Artists() {
     return (
         <div>
             <section>
-                <TitleBlock title="Artist Spotlight" text={siteInfo.spotlightText} image={siteInfo.spotlightImage} 
+                <TitleBlock title="Artist Spotlight" text={siteInfo.artistSpotlight.text} image={siteInfo.artistSpotlight.image} 
                 color="var(--mantine-color-secondary-3)" orientation="left" />
             </section>
             <section>

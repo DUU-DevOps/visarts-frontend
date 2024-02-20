@@ -13,9 +13,9 @@ export default async function Home() {
   const siteInfo = settingsData.result[0];
   const artistImages = artistData.result.slice(0, Math.min(4, artistData.result.length)).map((a: { Image: object }) => a.Image);
   const landingInfo = {
-    backgroundImage: siteInfo.image,
-    statement: siteInfo.statement,
-    visartsIcon: siteInfo.visartsIcon,
+    backgroundImage: siteInfo.homepageInfo.landingImage,
+    statement: siteInfo.homepageInfo.landingText,
+    visartsIcon: siteInfo.homepageInfo.visartsIcon,
   }
   const upcomingEventsData = await getUpcomingEventsData();
   const upcomingEvents = upcomingEventsData.events;
@@ -27,7 +27,7 @@ export default async function Home() {
       <section>
         <ContentBlock
           title="Artist Spotlight"
-          text={siteInfo.spotlightText}
+          text={siteInfo.homepageInfo.spotlightText}
           images={artistImages}
           imageSpan={8}
           textSpan={4}
@@ -38,8 +38,8 @@ export default async function Home() {
       <section>
         <ContentBlock
           title="Brown Gallery" 
-          text={siteInfo.brownGalleryText} 
-          image={siteInfo.brownGalleryImage} 
+          text={siteInfo.homepageInfo.brownGalleryText} 
+          image={siteInfo.homepageInfo.brownGalleryImage} 
           imageSpan={8} 
           textSpan={4} 
           orientation="right"
@@ -49,16 +49,16 @@ export default async function Home() {
       <section>
       <ContentBlock
           title="Figure Drawing" 
-          text={siteInfo.figureDrawingText} 
-          image={siteInfo.figureDrawingImage} 
+          text={siteInfo.homepageInfo.figureDrawingText} 
+          image={siteInfo.homepageInfo.figureDrawingImage} 
           imageSpan={8} 
           textSpan={4} 
           orientation="left"
           color='var(--mantine-color-accent-1)'
-          link={siteInfo.eventsLink} />
+          link={siteInfo.events.link && siteInfo.events.link !== ""? siteInfo.events.link : '/events' } />
       </section>
       <section style={{ marginBottom: '2rem' }}>
-        <UpcomingEvents events={upcomingEvents} text={siteInfo.eventsText}/>
+        <UpcomingEvents events={upcomingEvents} text={siteInfo.homepageInfo.eventsText}/>
       </section>
     </main>
   );

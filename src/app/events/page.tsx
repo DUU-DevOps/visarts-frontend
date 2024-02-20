@@ -20,13 +20,13 @@ export default async function Events() {
                 <GridCol span={{ base: 12, md: 4 }} p={20}>
                     <Stack gap="xl" >
                         <Title order={1} p={20} ta="center">Events Calendar</Title>
-                        {siteInfo.eventsText && siteInfo.eventsText.length > 0 &&
+                        {siteInfo.events.text && siteInfo.events.text.length > 0 &&
                             <Text size='lg' ta="center">
-                                {siteInfo.eventsText}
+                                {siteInfo.events.text}
                             </Text>
                         }
                         <Center mt={20}>
-                            <Anchor href={siteInfo.eventsLink} target="_blank">
+                            <Anchor href={siteInfo.events.link} target="_blank">
                                 <Button color="primary" radius="md" size="xl">
                                     Register Through LinkTree
                                 </Button>
