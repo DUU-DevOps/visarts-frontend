@@ -25,7 +25,7 @@ export default async function Home() {
         <LandingScreen landingInfo={landingInfo} />
       </section>
       <section>
-        <ContentBlock
+        {/* <ContentBlock
           title="Artist Spotlight"
           text={siteInfo.homepageInfo.spotlightText}
           images={artistImages}
@@ -33,7 +33,16 @@ export default async function Home() {
           textSpan={4}
           orientation="left"
           color='var(--mantine-color-secondary-3)'
-          link="/artists" />
+          link="/artists" /> */}
+        <ContentBlock
+          title="Get Involved"
+          text={siteInfo.homepageInfo.getInvolvedText}
+          image={siteInfo.homepageInfo.getInvolvedImage}
+          imageSpan={8}
+          textSpan={4}
+          orientation="left"
+          color='var(--mantine-color-secondary-3)'
+          link="/get-involved" />
       </section>
       <section>
         <ContentBlock

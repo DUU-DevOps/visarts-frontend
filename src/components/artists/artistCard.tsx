@@ -13,7 +13,7 @@ const ArtistCard = ({artist} : {
     return (
             <Card
                 padding="xl"
-                bg='accent.0'
+                bg='secondary.0'
                 h="100%"
             >
                 <CardSection>
@@ -26,7 +26,7 @@ const ArtistCard = ({artist} : {
                 <Title order={3} mt='md' c="gray.9" fw="600">
                     {artist.name}
                 </Title>
-                <Text mt="md" size="sm" c="gray.8" mb="md">
+                <Text mt="md" size="sm" c="gray.8" mb="md" >
                     {artist.blurb}
                 </Text>
                 <div style={{marginTop: 'auto'}}>

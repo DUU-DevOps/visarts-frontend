@@ -27,7 +27,7 @@ export default async function Events() {
                         }
                         <Center mt={20}>
                             <Anchor href={siteInfo.events.link} target="_blank">
-                                <Button color="primary" radius="md" size="xl">
+                                <Button color="primary" radius="md" size="lg">
                                     Register Through LinkTree
                                 </Button>
                             </Anchor>

@@ -32,9 +32,9 @@ const Navbar = async ({links, toggle, opened}: {
                             DUU VisArts
                         </Title>
                     </Anchor>
-                    <div style={{ marginTop: '1rem' }}>
+                    {/* <div style={{ marginTop: '1rem' }}>
                         <SocialLinks socialLinks={socialLinks} color="var(--mantine-color-gray-9)" />
-                    </div>
+                    </div> */}
                 </Group>
                 <Group px={200} visibleFrom='sm'>
                     {links.map((link, key) => (

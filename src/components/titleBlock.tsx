@@ -1,8 +1,8 @@
 import React from 'react'
-import {Center, Grid, GridCol, Image, Stack, Title} from '@mantine/core';
+import { Center, Grid, GridCol, Image, Stack, Title, Text } from '@mantine/core';
 import { grabImage } from '@/lib/sanityClient';
 
-const TitleBlock = ({title, text, image, color, orientation}:
+const TitleBlock = ({ title, text, image, color, orientation }:
     {
         title: string,
         text: string,
@@ -19,35 +19,35 @@ const TitleBlock = ({title, text, image, color, orientation}:
                             <Image src={grabImage(image)} height={460} w={"100%"} />
                         }
                     </GridCol>
-                    <GridCol pl={50} pr={50} span={{ base: 5 }} style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
-                        <Stack px="xl" justify='space-between' h="80%" w="90%">
-                            <Title order={1} style={{ textAlign: 'left' }}>
+                    <GridCol pl={50} pr={50} span={{ base: 5 }} style={{display: 'flex', alignItems: 'center'}}>
+                        <Stack px="xl" align='center' justify="center" w="100%">
+                            <Title order={1} ta="center">
                                 {title}
                             </Title>
-                            <Title order={4} style={{ textAlign: 'left' }} fw="700" fs="10vw">
+                            <Text ta="center" fs="10vw">
                                 {text}
-                            </Title>
+                            </Text>
                         </Stack>
                     </GridCol>
                 </Grid>
             </Center>
         )
     }
-    
+
     return (
         <Center>
             <Grid gutter="none" bg={color} w={"100%"} >
-                <GridCol pl={50} pr={50} span={{ base: 5 }} style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
-                    <Stack px="xl" justify='space-between' h="80%" w="90%">
-                        <Title order={1} style={{ textAlign: 'left' }}>
+                <GridCol pl={50} pr={50} span={{ base: 12, md: 5 }} style={{display: 'flex', alignItems: 'center'}}>
+                    <Stack px="xl" align='center' justify="center" w="100%">
+                        <Title order={1} ta="center">
                             {title}
                         </Title>
-                        <Title order={4} style={{ textAlign: 'left' }} fw="700" fs="10vw">
+                        <Text ta="center" fs="10vw">
                             {text}
-                        </Title>
+                        </Text>
                     </Stack>
                 </GridCol>
-                <GridCol span={{ base: 7 }} >
+                <GridCol span={{ base: 7 }} visibleFrom="sm" >
                     {image &&
                         <Image src={grabImage(image)} height={460} w={"100%"} />
                     }

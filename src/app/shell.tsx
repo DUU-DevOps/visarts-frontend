@@ -11,11 +11,6 @@ import { useDisclosure } from '@mantine/hooks';
 
 const links = [
   {
-    name: "Artists",
-    icon: <IconInfoCircle size={20} />,
-    link: "/artists"
-  },
-  {
     name: "Meet Us",
     icon: <IconTools size={20} />,
     link: "/meet-us"

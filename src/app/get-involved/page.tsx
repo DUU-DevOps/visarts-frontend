@@ -2,6 +2,7 @@ import React from 'react'
 import { createURL, getData, grabImage } from '@/lib/sanityClient'
 import { Center, Title, Text, Stack, Group, Grid, GridCol } from '@mantine/core';
 import ContactLink from '@/components/get-involved/contactLink';
+import TitleBlock from '@/components/titleBlock';
 
 const Page = async () => {
     const settingsURL = createURL("siteSettings");
@@ -10,24 +11,15 @@ const Page = async () => {
 
     return (
         <div style={{height: "100%"}}>
-            <div style={{ backgroundImage: `url(${grabImage(info.image)})`, backgroundSize: 'cover', height: '45vh', position: 'relative' }}>
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '45vh',
-                    backgroundColor: 'rgba(0, 0, 0, 0.7)'
-                }} />
-                <Center style={{position: 'absolute'}} left={0} right={0} ml="auto" mr="auto" mt="100" w={"60%"}>
-                    <Stack>
-                        <Title ta="center" order={1} c="accent.0">Get Involved</Title>
-                        <Text ta="center" c="accent.0">{info.message}</Text>
-                    </Stack>
-                </Center>
-            </div>
+            <TitleBlock 
+                title="Get Involved" 
+                text={info.message} 
+                image={info.image} 
+                color="var(--mantine-color-secondary-3)" 
+                orientation="left"
+            />
             <Center>
-                <Grid gutter="none" w="100%"  align="center" mt="2rem">
+                <Grid gutter="none" w="100%"  align="center" p="2rem">
                     {
                         info.contactLinks?.map((contact : {
                             name: string,
