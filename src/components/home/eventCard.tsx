@@ -26,29 +26,24 @@ const EventCard = ({ event, spoilerControlRef }: {
                 <Image
                     src={fixImageURL(event.image)}
                     height={200}
+                    width={"100%"}
                 />
             </CardSection>
-            <Spoiler controlRef={spoilerControlRef}  hideLabel="Read Less" showLabel="Read More"  maxHeight={200} styles={{
-                control: {
-                    color: "var(--mantine-color-accent-3)"
-                }
-            }}>
-                <div>
-                    <Title order={4} c={"accent.1"} mt="lg" mb="lg">{event.summary}</Title>
-                </div>
-                <Stack justify='space-between' mb="1rem">
-                    <Badge bg="var(--mantine-color-secondary-3)" size='md'>
-                        {formatDate(event.start_timestamp)}
-                    </Badge>
-                </Stack>
-                <div>
-                    <Text c={"accent.1"} size='sm'>{event.description}</Text>
-                </div>
-            </Spoiler>
+            <div>
+                <Title order={5} c={"accent.1"} mt="lg" mb="lg" fw={500}>{event.summary}</Title>
+            </div>
+            <Stack justify='space-between' mb="1rem">
+                <Badge bg="var(--mantine-color-secondary-3)" size='md'>
+                    {formatDate(event.start_timestamp)}
+                </Badge>
+            </Stack>
+            <div>
+                <Text c={"accent.1"} size='sm' lineClamp={5}>{event.description}</Text>
+            </div>
             <div style={{ marginTop: 'auto' }}>
                 <Anchor href={event.link} target="_blank" w={"100%"}>
                     <Button color="primary.9" variant="light" radius="md" mt="sm" fullWidth bg="var(--mantine-color-accent-1)">
-                        View Details
+                        View More Details
                     </Button>
                 </Anchor>
             </div>

@@ -38,7 +38,7 @@ export default async function Events() {
                     <EventsCalendar />
                 </GridCol>
             </Grid>
-            <Title p={20} ml={100} order={1}>Upcoming Events</Title>
+            <Title p={20} ta="center" order={2}>Upcoming Events</Title>
             <EventCarousel events={upcomingEvents} />
         </div>
     )
