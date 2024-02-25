@@ -39,7 +39,7 @@ const Artist = ({ artist }:
                         alt={artist.name}
                     />
                 </GridCol>
-                <GridCol p="5rem" span={{ base: 7 }} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <GridCol pl="5rem" pr="5rem" span={{ base: 7 }} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <Stack>
                         <Title order={2} mt="md" c="gray.0" fw="600">
                             {artist.title}

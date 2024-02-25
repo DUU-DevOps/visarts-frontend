@@ -4,6 +4,8 @@ import { Center, Title, Text, Stack, Group, Grid, GridCol } from '@mantine/core'
 import ContactLink from '@/components/get-involved/contactLink';
 import TitleBlock from '@/components/titleBlock';
 import AlbumCard from '@/components/get-involved/albumCard';
+import AlbumModal from '@/components/get-involved/albumModal';
+import Albums from '@/components/get-involved/albums';
 
 const Page = async () => {
     const settingsURL = createURL("siteSettings");
@@ -23,8 +25,8 @@ const Page = async () => {
                 color="var(--mantine-color-secondary-3)"
                 orientation="left"
             />
-            <Center>
-                <Grid gutter="none" w="100%" align="center" p="2rem">
+            <Center >
+                <Grid gutter="none" w="100%" align="center" p="2rem" >
                     {
                         info.contactLinks?.map((contact: {
                             name: string,
@@ -34,7 +36,7 @@ const Page = async () => {
                             clickCopy: boolean
                         }, index: number) => {
                             return (
-                                <GridCol span={{ base: 3 }} key={index} >
+                                <GridCol p={20} span={{ base: 6, md: 3 }} key={index} >
                                     <ContactLink key={index} contactLink={contact} />
                                 </GridCol>
                             )
@@ -42,20 +44,10 @@ const Page = async () => {
                     }
                 </Grid>
             </Center>
-            <Center>
-                <Grid w="100%" gutter="none" justify='space-apart' align="center">
-                    {
-                        albums.map((album: any, index: number) => {
-                            return (
-                                <GridCol span={{ base: 12, sm: 4, md: 4, lg: 4 }} key={index}>
-                                    <AlbumCard album={album} />
-                                </GridCol>
-                            )
-                        }
-                        )
-                    }
-                </Grid>
-            </Center>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{position: 'absolute', backgroundColor: "transparent"}}>
+                <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-body)"/>
+            </svg>
+            <Albums albums={albums} />
         </div>
     )
 }
