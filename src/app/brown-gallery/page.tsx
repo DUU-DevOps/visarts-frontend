@@ -19,8 +19,8 @@ const Page = async () => {
     return (
         <div>
             <section>
-                <Grid gutter="none" align='center' bg="var(--mantine-color-accent-1)">
-                    <GridCol span={{base: 8, md: 7}}>
+                <Grid gutter="none" align='center' >
+                    <GridCol span={{ base: 8, md: 7 }}>
                         <Stack >
                             <Title order={1} ta="center">The Brown Gallery</Title>
                             <Center w="100%">
@@ -39,16 +39,18 @@ const Page = async () => {
                             </Center>
                         </Stack>
                     </GridCol>
-                    <GridCol span={{base: 4, md: 5}} >
+                    <GridCol span={{ base: 4, md: 5 }} >
                         <Image fit='contain' height={500} src={grabImage(siteInfo.brownGallery.image)} alt="Brown Gallery" />
                     </GridCol>
                 </Grid>
             </section>
-            <section>
-            <Title p={20} order={2} ta="center">View Galleries</Title>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{position: 'absolute', backgroundColor: "transparent"}}>
+                <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-body)"/>
+            </svg>
+            <section style={{ backgroundImage: `url(${grabImage(siteInfo.brownGallery.backgroundImage)})`, backgroundSize: 'cover', paddingTop: '1rem' }}>
                 <Grid gutter='none' align="stretch">
-                    {artists.map((artist : any, key : number) => (
-                        <GridCol key={key} span={4} p ={20}>
+                    {artists.map((artist: any, key: number) => (
+                        <GridCol key={key} span={4} p={20}>
                             <ArtistCard artist={artist} />
                         </GridCol>
                     ))}

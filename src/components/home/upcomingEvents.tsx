@@ -21,7 +21,7 @@ const UpcomingEvents = ({ events, text }:
             <GridCol p={20} span={{ md: 12 }} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <Grid align='center' w="100%">
                     <GridCol span={{ base: 12, md: 6 }}>
-                        <Stack gap="xl" p={30} pr={150} pl={150}>
+                        <Stack gap="xl" p={30} >
                             <Center>
                                 <Title order={2} ta="center">
                                     Upcoming Events

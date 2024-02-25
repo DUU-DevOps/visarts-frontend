@@ -1,11 +1,12 @@
 import React from 'react'
-import { Modal, Image, BackgroundImage } from '@mantine/core';
+import { Modal, Image, BackgroundImage, Text } from '@mantine/core';
 import { grabImage } from '@/lib/sanityClient';
 
 const ImageModal = ({ image, opened, close }: {
     image: {
         title: string,
         image: {asset: string},
+        blurb: string
     },
     opened: boolean,
     close: () => void
@@ -19,12 +20,16 @@ const ImageModal = ({ image, opened, close }: {
                 fontSize: "1.5rem"
             }
         }}>
+            <div>
                 <Image
                 src={image.image.asset && grabImage(image.image)}
-                h={600}
                 fit='contain'
                 alt={image.title}
                 />
+                <Text bg="var(--mantine-color-accent-1)" p={10} mt={10}>
+                    {image.blurb}
+                </Text>
+            </div>
         </Modal>
     )
 }

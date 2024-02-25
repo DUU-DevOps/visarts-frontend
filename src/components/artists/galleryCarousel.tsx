@@ -4,7 +4,7 @@ import { Image, UnstyledButton } from '@mantine/core';
 import { Carousel, CarouselSlide } from '@mantine/carousel';
 import { grabImage } from '@/lib/sanityClient';
 
-const GalleryCarousel = ({gallery, handleClick}: {gallery: any, handleClick: (image: { title: '', image: {asset: ""} }) => void}) => {
+const GalleryCarousel = ({gallery, handleClick}: {gallery: any, handleClick: (image: { title: '', image: {asset: ""}, blurb: '' }) => void}) => {
     return (
         <Carousel
             slideSize={{ base: '100%', sm: '50%', md: '33.333333%' }}

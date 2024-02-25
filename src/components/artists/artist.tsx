@@ -17,13 +17,14 @@ const Artist = ({ artist }:
                 asset: object
             },
             imagesGallery: any,
-            socialLinks: any
+            socialLinks: any,
+            title: string
         }
     }) => {
     const [opened, setOpened] = useState(false);
-    const [selected, setSelected] = useState({ title: '', image: {asset: ""} });
+    const [selected, setSelected] = useState({ title: '', image: {asset: ""}, blurb: '' });
 
-    const handleClick = (image: { title: '', image: {asset: ""} }) => {
+    const handleClick = (image: { title: '', image: {asset: ""}, blurb: '' }) => {
         setSelected(image);
         setOpened(true);
     }
@@ -41,8 +42,13 @@ const Artist = ({ artist }:
                 <GridCol p="5rem" span={{ base: 7 }} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <Stack>
                         <Title order={2} mt="md" c="gray.0" fw="600">
+                            {artist.title}
+                        </Title>
+                        {artist.name && artist.name !== '' &&
+                        <Title order={4} fs="italic" c="gray.0" fw="500">
                             {artist.name}
                         </Title>
+                        }
                         <Text mt="md" c="gray.2">
                             {artist.blurb}
                         </Text>

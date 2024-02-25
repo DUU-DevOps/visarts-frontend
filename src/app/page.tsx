@@ -25,15 +25,6 @@ export default async function Home() {
         <LandingScreen landingInfo={landingInfo} />
       </section>
       <section>
-        {/* <ContentBlock
-          title="Artist Spotlight"
-          text={siteInfo.homepageInfo.spotlightText}
-          images={artistImages}
-          imageSpan={8}
-          textSpan={4}
-          orientation="left"
-          color='var(--mantine-color-secondary-3)'
-          link="/artists" /> */}
         <ContentBlock
           title="Get Involved"
           text={siteInfo.homepageInfo.getInvolvedText}
