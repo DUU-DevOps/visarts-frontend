@@ -19,10 +19,10 @@ const Page = async () => {
     return (
         <div>
             <section>
-                <Grid gutter="none" align='center' >
-                    <GridCol span={{ base: 8, md: 7 }}>
+                <Grid gutter="none" align='center'>
+                    <GridCol span={{ base: 12, sm: 7 }} p={30}>
                         <Stack >
-                            <Title order={1} ta="center">The Brown Gallery</Title>
+                            <Title order={2} ta="center">The Brown Gallery</Title>
                             <Center w="100%">
                                 <Text ta="center" w="80%">
                                     {siteInfo.brownGallery.text}
@@ -39,7 +39,7 @@ const Page = async () => {
                             </Center>
                         </Stack>
                     </GridCol>
-                    <GridCol span={{ base: 4, md: 5 }} >
+                    <GridCol span={{ base: 12, sm: 5 }} >
                         <Image fit='contain' height={500} src={grabImage(siteInfo.brownGallery.image)} alt="Brown Gallery" />
                     </GridCol>
                 </Grid>
@@ -50,7 +50,7 @@ const Page = async () => {
             <section style={{ backgroundImage: `url(${grabImage(siteInfo.brownGallery.backgroundImage)})`, backgroundSize: 'cover', paddingTop: '1rem' }}>
                 <Grid gutter='none' align="stretch">
                     {artists.map((artist: any, key: number) => (
-                        <GridCol key={key} span={4} p={20}>
+                        <GridCol key={key} span={{base: 12, sm: 6, md: 4}} p={20}>
                             <ArtistCard artist={artist} />
                         </GridCol>
                     ))}

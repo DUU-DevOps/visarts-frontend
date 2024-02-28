@@ -26,7 +26,7 @@ const Page = async () => {
                 orientation="left"
             />
             <Center >
-                <Grid gutter="none" w="100%" align="center" p="2rem" >
+                <Grid gutter="none" w="80%" align="center" p="1rem" justify='center' >
                     {
                         info.contactLinks?.map((contact: {
                             name: string,
@@ -36,7 +36,7 @@ const Page = async () => {
                             clickCopy: boolean
                         }, index: number) => {
                             return (
-                                <GridCol p={20} span={{ base: 6, md: 3 }} key={index} >
+                                <GridCol p={20} span={{ xs: 12, sm: 6, md: 3 }} key={index} >
                                     <ContactLink key={index} contactLink={contact} />
                                 </GridCol>
                             )

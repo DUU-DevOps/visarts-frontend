@@ -1,31 +1,36 @@
 import React from 'react'
-import {grabImage} from "../../lib/sanityClient";
-import { Avatar, Group, Title, Text } from '@mantine/core';
+import { grabImage } from "../../lib/sanityClient";
+import { Avatar, Group, Title, Text, Grid, GridCol } from '@mantine/core';
 
 
 
 
-export const LandingScreen = async ({landingInfo}: {landingInfo: {
-  backgroundImage: object,
-  statement: string,
-  visartsIcon: object
-},
+export const LandingScreen = async ({ landingInfo }: {
+  landingInfo: {
+    backgroundImage: object,
+    statement: string,
+    visartsIcon: object,
+    title: string
+  },
 
 }) => {
-        
+
 
   return (
-    <div  style={{backgroundImage: `url(${grabImage(landingInfo.backgroundImage)})`, backgroundSize: 'cover', height: '90vh', position: 'relative'}}>
-      <div style={{position: 'absolute', top: "20%", backgroundColor: 'var(--mantine-color-secondary-1)'}} >
-        <Group justify='center'>
-          <Avatar src={grabImage(landingInfo.visartsIcon)} size={"25rem"} radius="xs"/>
-          <div style={{width: "40rem", height: "100%"}}>
-            <Title order={2}>Experience the world through <em>your</em> art. </Title>
-            <br />
-            <br />
-            <Text size='md'>{landingInfo.statement}</Text>
-          </div>
-        </Group>
+    <div style={{ backgroundImage: `url(${grabImage(landingInfo.backgroundImage)})`, backgroundSize: 'cover', height: '80vh', position: 'relative' }}>
+      <div style={{ position: 'absolute', top: "20%", backgroundColor: 'var(--mantine-color-secondary-1)' }} >
+        <Grid gutter="none" align="center">
+          <GridCol span={{ base: 6, sm: 6 }} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <Avatar src={grabImage(landingInfo.visartsIcon)} size={300} radius="xs" />
+          </GridCol>
+          <GridCol span={{ base: 6, sm: 6 }} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className='landing-block'>
+              <Title order={2} className='landing-header'>{landingInfo.title}</Title>
+              <br />
+              <Text size='md' className='landing-text'>{landingInfo.statement}</Text>
+            </div>
+          </GridCol>
+        </Grid>
       </div>
     </div>
   )

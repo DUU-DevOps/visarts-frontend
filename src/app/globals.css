@@ -1,0 +1,128 @@
+@media screen and (min-width: 1400px){
+    .header-title {
+      font-size: 3vw;
+    }
+    .header-text {
+        font-size: 1vw;
+    }
+    .content-image{
+        height: 22vw;
+    }
+    .landing-header {
+        font-size: 3vw;
+    }
+    .landing-block {
+        width: 40vw;
+        padding: 1rem;
+    }
+  }
+
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    .header-title {
+      font-size: 4vw;
+    }
+    .header-text {
+        font-size: 1.5vw;
+    }
+    .content-image{
+        height: 30vw;
+    }
+    .landing-header {
+        font-size: 3vw;
+    }
+    .landing-block {
+        width: 40vw;
+        padding: 1rem;
+    }
+  }
+
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .header-title {
+      font-size: 4vw;
+    }
+    .header-text {
+        font-size: 1.5vw;
+    }
+    .content-image{
+        height: 30vw;
+    }
+    .landing-header {
+        font-size: 3vw;
+    }
+    .landing-block {
+        width: 40vw;
+        padding: 1rem;
+    }
+  }
+
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .header-title {
+      font-size: 6vw;
+    }
+    .header-text {
+        font-size: 1.5vw;
+    }
+    .content-image{
+        height: 30vw;
+    }
+    .landing-header {
+        font-size: 3vw;
+    }
+    .landing-block {
+        width: 40vw;
+        padding: 1rem
+    }
+    .landing-text {
+        font-size: 2vw;
+        width: 100%
+    }
+  }
+
+
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .header-title {
+      font-size: 7vw;
+    }
+    .header-text {
+        font-size: 2vw;
+    }
+    .content-image{
+        height: 50vw;
+    }
+    .landing-header {
+        font-size: 4vw;
+    }
+    .landing-block {
+        width: 40vw;
+        padding: 1rem;
+    }
+    .landing-text {
+        font-size: 2vw;
+        width: 100%
+    }
+  }
+  
+  /* Custom styles for smaller screens */
+  @media screen and (max-width: 500px) {
+    .header-title {
+      font-size: 7vw;
+    }
+    .header-text {
+        font-size: 2.5vw;
+    }
+    .content-image{
+        height: 50vw;
+    }
+    .landing-header {
+        font-size: 5vw;
+    }
+    .landing-block {
+        width: 100%;
+        padding: 1rem;
+    }
+    .landing-text {
+        font-size: 3vw;
+    }
+  }

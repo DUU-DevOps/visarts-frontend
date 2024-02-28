@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { Title, Grid, GridCol, Image, Stack, Text } from "@mantine/core";
+import { Title, Grid, GridCol, Image, Stack, Text, Center } from "@mantine/core";
 import GalleryCarousel from './galleryCarousel';
 import { grabImage } from '@/lib/sanityClient';
 import { useState } from 'react';
@@ -22,9 +22,9 @@ const Artist = ({ artist }:
         }
     }) => {
     const [opened, setOpened] = useState(false);
-    const [selected, setSelected] = useState({ title: '', image: {asset: ""}, blurb: '' });
+    const [selected, setSelected] = useState({ title: '', image: { asset: "" }, blurb: '' });
 
-    const handleClick = (image: { title: '', image: {asset: ""}, blurb: '' }) => {
+    const handleClick = (image: { title: '', image: { asset: "" }, blurb: '' }) => {
         setSelected(image);
         setOpened(true);
     }
@@ -32,27 +32,27 @@ const Artist = ({ artist }:
     return (
         <div>
             <Grid gutter="none" bg="var(--mantine-color-primary-6)">
-                <GridCol span={{ base: 5 }}>
-                    <Image
-                        src={artist.Image.asset && grabImage(artist.Image)}
-                        h={600}
-                        alt={artist.name}
-                    />
+                <GridCol span={{ base: 12, sm: 5 }} display="flex" style={{alignItems: 'center'}}>
+                        <Image
+                            src={artist.Image.asset && grabImage(artist.Image)}
+                            fit="contain"
+                            alt={artist.name}
+                        />
                 </GridCol>
-                <GridCol pl="5rem" pr="5rem" span={{ base: 7 }} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <GridCol pl="5rem" pr="5rem" span={{ base: 12, sm: 7 }} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <Stack>
                         <Title order={2} mt="md" c="gray.0" fw="600">
                             {artist.title}
                         </Title>
                         {artist.name && artist.name !== '' &&
-                        <Title order={4} fs="italic" c="gray.0" fw="500">
-                            {artist.name}
-                        </Title>
+                            <Title order={4} fs="italic" c="gray.0" fw="500">
+                                {artist.name}
+                            </Title>
                         }
                         <Text mt="md" c="gray.2">
                             {artist.blurb}
                         </Text>
-                        <SocialLinks socialLinks={artist.socialLinks} color="var(--mantine-color-gray-3)"/>
+                        <SocialLinks socialLinks={artist.socialLinks} color="var(--mantine-color-gray-3)" />
                     </Stack>
                 </GridCol>
             </Grid>

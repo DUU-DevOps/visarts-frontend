@@ -23,13 +23,13 @@ const UpcomingEvents = ({ events, text }:
                     <GridCol span={{ base: 12, md: 6 }}>
                         <Stack gap="xl" p={30} >
                             <Center>
-                                <Title order={2} ta="center">
+                                <Title order={2} className="header-title" ta="center">
                                     Upcoming Events
                                 </Title>
                             </Center>
                             {text && text.length > 0 &&
                                 <Center >
-                                    <Text size='lg' ta="center">
+                                    <Text size='md' ta="center">
                                         {text}
                                     </Text>
                                 </Center>
@@ -39,7 +39,7 @@ const UpcomingEvents = ({ events, text }:
                     <GridCol span={{ base: 12, md: 6 }}>
                         <Center>
                             <Anchor href="/events">
-                                <Button color="primary" radius="md" size="xl">
+                                <Button color="primary" radius="md" size="lg">
                                     View All Events
                                 </Button>
                             </Anchor>

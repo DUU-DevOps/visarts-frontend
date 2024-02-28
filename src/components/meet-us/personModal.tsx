@@ -18,10 +18,10 @@ const PersonModal = ({ person, opened, close, title }:
             <Modal opened={opened} onClose={close} size="xl" 
             styles={{
                 body: {
-                    backgroundColor: 'var(--mantine-color-accent-1)'
+                    backgroundColor: 'var(--mantine-color-body)'
                 },
                 header: {
-                    backgroundColor: 'var(--mantine-color-accent-1)',
+                    backgroundColor: 'var(--mantine-color-body)',
                 },
                 close: {
                     color: 'var(--mantine-color-gray-9)',
@@ -34,8 +34,9 @@ const PersonModal = ({ person, opened, close, title }:
                 <CardSection>
                     <Image
                     src={person.image.asset && grabImage(person.image)}
-                    h={300}
                     alt={person.name}
+                    height={300}
+                    fit="contain"
                     />
                 </CardSection>
                 <Title order={3}  mt="xl" c="gray.9" fw="600">
@@ -44,7 +45,7 @@ const PersonModal = ({ person, opened, close, title }:
                 <Text mt="xs" size="lg" c="gray.7">
                     {person.title}
                 </Text>
-                <Text mt="md" c="gray.8">
+                <Text mt="md" c="gray.8" bg="var(--mantine-color-secondary-1)" p={10}>
                     {person.bio}
                 </Text>
                 </Card>

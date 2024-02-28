@@ -7,14 +7,12 @@ import ContentBlock from "@/components/home/contentBlock";
 
 export default async function Home() {
   const settingsURL = createURL("siteSettings");
-  const artistURL = createURL("artist");
   const settingsData = await getData(settingsURL);
-  const artistData = await getData(artistURL);
   const siteInfo = settingsData.result[0];
-  const artistImages = artistData.result.slice(0, Math.min(4, artistData.result.length)).map((a: { Image: object }) => a.Image);
   const landingInfo = {
     backgroundImage: siteInfo.homepageInfo.landingImage,
     statement: siteInfo.homepageInfo.landingText,
+    title: siteInfo.homepageInfo.landingTitle,
     visartsIcon: siteInfo.homepageInfo.visartsIcon,
   }
   const upcomingEventsData = await getUpcomingEventsData();
@@ -43,7 +41,7 @@ export default async function Home() {
           imageSpan={8} 
           textSpan={4} 
           orientation="right"
-          color='var(--mantine-color-primary-4)'
+          color='var(--mantine-color-primary-5)'
           link='/brown-gallery' />
       </section>
       <section>

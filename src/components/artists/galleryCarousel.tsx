@@ -1,10 +1,10 @@
 "use client";
 import React from 'react'
-import { Image, UnstyledButton } from '@mantine/core';
+import { Image, UnstyledButton, Center } from '@mantine/core';
 import { Carousel, CarouselSlide } from '@mantine/carousel';
 import { grabImage } from '@/lib/sanityClient';
 
-const GalleryCarousel = ({gallery, handleClick}: {gallery: any, handleClick: (image: { title: '', image: {asset: ""}, blurb: '' }) => void}) => {
+const GalleryCarousel = ({ gallery, handleClick }: { gallery: any, handleClick: (image: { title: '', image: { asset: "" }, blurb: '' }) => void }) => {
     return (
         <Carousel
             slideSize={{ base: '100%', sm: '50%', md: '33.333333%' }}
@@ -25,12 +25,14 @@ const GalleryCarousel = ({gallery, handleClick}: {gallery: any, handleClick: (im
             }}
         >
             {
-                gallery && gallery.map((image:any, key:number) => (
-                    <UnstyledButton onClick={() => handleClick(image)} key={key}>
-                        <CarouselSlide >
-                            <Image src={grabImage(image.image)} height={"300"} w="100%" />
-                        </CarouselSlide>
-                    </UnstyledButton>
+                gallery && gallery.map((image: any, key: number) => (
+                    <CarouselSlide key={key}>
+                        <Center>
+                            <UnstyledButton onClick={() => handleClick(image)}  >
+                                <Image src={grabImage(image.image)} height={"300"} w="100%" fit="contain" />
+                            </UnstyledButton>
+                        </Center>
+                    </CarouselSlide>
                 ))
             }
         </Carousel>

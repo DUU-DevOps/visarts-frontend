@@ -8,6 +8,7 @@ import '@mantine/carousel/styles.css';
 import Provider from "./provider";
 
 
+
 const openSans = Open_Sans({
   weight: ['300','400', '500', '700'],
   display: 'swap',

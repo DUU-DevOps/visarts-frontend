@@ -17,7 +17,7 @@ const Albums = ({ albums }: {
         imagesGallery: []
     });
     return (
-        <Center bg="accent.1" pt={30}>
+        <Center bg="primary.5" pt={50}>
             <Grid w="100%" gutter="none" justify='space-apart' align="center">
                 {
                     albums.map((album: any, index: number) => {

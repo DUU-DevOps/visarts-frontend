@@ -19,7 +19,7 @@ export default async function Events() {
             <Grid gutter="none" bg="var(--mantine-color-accent-1)" align="center" justify="space-between">
                 <GridCol span={{ base: 12, md: 4 }} p={20}>
                     <Stack gap="xl" >
-                        <Title order={1} p={20} ta="center">Events Calendar</Title>
+                        <Title order={2} p={20} ta="center">Events Calendar</Title>
                         {siteInfo.events.text && siteInfo.events.text.length > 0 &&
                             <Text size='lg' ta="center">
                                 {siteInfo.events.text}

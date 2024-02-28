@@ -6,7 +6,7 @@ function capitalizeFirstLetter(string: string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-const SocialLinks = ({ socialLinks, color }: { socialLinks: { type: string, url: string}[], color: string  }) => {
+const SocialLinks = ({ socialLinks, color }: { socialLinks?: { type: string, url: string}[], color: string  }) => {
     const getIcon = (icon: string) => {
         switch (icon.toLowerCase()) {
             case "instagram":
@@ -23,10 +23,9 @@ const SocialLinks = ({ socialLinks, color }: { socialLinks: { type: string, url:
     }
 
     return (
-        <Center>
             <Group>
                 {
-                    socialLinks.map((socialLink, key) => (
+                    socialLinks && socialLinks.map((socialLink, key) => (
                         <Tooltip key={key} label={capitalizeFirstLetter(socialLink.type)} position="bottom">
                             <Anchor href={socialLink.url} target="_blank">
                                 {getIcon(socialLink.type)}
@@ -35,7 +34,6 @@ const SocialLinks = ({ socialLinks, color }: { socialLinks: { type: string, url:
                     ))
                 }
             </Group>
-        </Center>
     )
 }
 
