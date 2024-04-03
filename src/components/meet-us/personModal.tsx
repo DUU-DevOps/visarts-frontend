@@ -33,7 +33,7 @@ const PersonModal = ({ person, opened, close, title }:
                 >
                 <CardSection>
                     <Image
-                    src={person.image.asset && grabImage(person.image)}
+                    src={person.image && person.image.asset ? grabImage(person.image) : './blank-avatar.webp'}
                     alt={person.name}
                     height={300}
                     fit="contain"

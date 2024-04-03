@@ -1,8 +1,8 @@
 
-const PROJECT_ID=process.env.PROJECT_ID
-const DATASET=process.env.DATASET
+const PROJECT_ID = process.env.PROJECT_ID
+const DATASET = process.env.DATASET
 
-export function createURL (type) {
+export function createURL(type) {
   let QUERY = encodeURIComponent(`*[_type == "${type}"]`);
   let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
   return url;
@@ -16,11 +16,11 @@ export function createURLById(type, itemId) {
 }
 
 
-export function grabImage (source) {
-    const link = source.asset._ref.slice(6, source.asset._ref.lastIndexOf('-'));
-    const filetype = source.asset._ref.slice(source.asset._ref.lastIndexOf('-') + 1, source.asset._ref.length);
-    let url =  `https://cdn.sanity.io/images/${PROJECT_ID}/${DATASET}/${link}.${filetype}`;
-    return url;
+export function grabImage(source) {
+  const link = source.asset._ref.slice(6, source.asset._ref.lastIndexOf('-'));
+  const filetype = source.asset._ref.slice(source.asset._ref.lastIndexOf('-') + 1, source.asset._ref.length);
+  let url = `https://cdn.sanity.io/images/${PROJECT_ID}/${DATASET}/${link}.${filetype}`;
+  return url;
 }
 
 
@@ -32,7 +32,7 @@ export const grabFile = (source) => {
 
 
 export async function getData(url) {
-  const res = await fetch(url, {next: {revalidate: 100}});
+  const res = await fetch(url, { next: { revalidate: 100 } });
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }

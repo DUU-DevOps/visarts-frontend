@@ -1,6 +1,5 @@
 import React from 'react'
 import { Modal, Image } from '@mantine/core';
-import { grabImage } from '@/lib/sanityClient';
 import { Carousel, CarouselSlide } from '@mantine/carousel';
 
 const AlbumModal = ({ album, opened, close }: {
@@ -11,6 +10,7 @@ const AlbumModal = ({ album, opened, close }: {
     opened: boolean,
     close: () => void
 }) => {
+
     return (
         <Modal opened={opened} onClose={close} title={album.name} size="xl"
         styles={{
@@ -38,8 +38,10 @@ const AlbumModal = ({ album, opened, close }: {
                             return (
                                 <CarouselSlide key={index}>
                                     <Image
-                                    src={grabImage(image)}
+                                    src={image.asset}
                                     alt={album.name}
+                                    height={500}
+                                    fit="contain"
                                     />
                                 </CarouselSlide>
                             )

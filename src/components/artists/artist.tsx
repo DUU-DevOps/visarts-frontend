@@ -13,18 +13,16 @@ const Artist = ({ artist }:
         artist: {
             name: string,
             blurb: string,
-            Image: {
-                asset: object
-            },
+            Image: string,
             imagesGallery: any,
             socialLinks: any,
             title: string
         }
     }) => {
     const [opened, setOpened] = useState(false);
-    const [selected, setSelected] = useState({ title: '', image: { asset: "" }, blurb: '' });
+    const [selected, setSelected] = useState({ title: '', asset: "", blurb: '' });
 
-    const handleClick = (image: { title: '', image: { asset: "" }, blurb: '' }) => {
+    const handleClick = (image: { title: string, asset: string, blurb: string }) => {
         setSelected(image);
         setOpened(true);
     }
@@ -34,7 +32,7 @@ const Artist = ({ artist }:
             <Grid gutter="none" bg="var(--mantine-color-primary-6)">
                 <GridCol span={{ base: 12, sm: 5 }} display="flex" style={{alignItems: 'center'}}>
                         <Image
-                            src={artist.Image.asset && grabImage(artist.Image)}
+                            src={artist.Image}
                             fit="contain"
                             alt={artist.name}
                         />

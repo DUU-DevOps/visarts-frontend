@@ -5,7 +5,7 @@ import { grabImage } from '@/lib/sanityClient';
 const ImageModal = ({ image, opened, close }: {
     image: {
         title: string,
-        image: { asset: string },
+        asset: string,
         blurb: string
     },
     opened: boolean,
@@ -22,7 +22,7 @@ const ImageModal = ({ image, opened, close }: {
             }}>
             <div>
                 <Image
-                    src={image.image.asset && grabImage(image.image)}
+                    src={image.asset}
                     fit='contain'
                     alt={image.title}
                 />

@@ -16,7 +16,7 @@ const PersonCard = ({ person, onClick }: {
             <UnstyledButton onClick={onClick}>
                 <CardSection>
                     <Image
-                        src={person.image.asset && grabImage(person.image)}
+                        src={person.image && person.image.asset ?  grabImage(person.image) : './blank-avatar.webp'}
                         h={200}
                         w={200}
                         alt={person.name}

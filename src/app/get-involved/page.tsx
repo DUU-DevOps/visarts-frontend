@@ -4,6 +4,7 @@ import { Center, Grid, GridCol } from '@mantine/core';
 import ContactLink from '@/components/get-involved/contactLink';
 import TitleBlock from '@/components/titleBlock';
 import Albums from '@/components/get-involved/albums';
+import { grabImage } from '@/lib/sanityClient';
 
 
 const Page = async () => {
@@ -13,8 +14,30 @@ const Page = async () => {
 
     const albumsLink = createURL("album");
     const albumsData = await getData(albumsLink);
-    const albums = albumsData.result;
+    let albums = albumsData.result;
+    albums = albums.map((album : any) => {
+        return {
+            ...album,
+            imagesGallery: album.imagesGallery.map((image : any) => {
+                return {
 
+                    asset: grabImage(image)
+                }
+            })
+        }
+    })
+    info.contactLinks = info.contactLinks.map((contact: {
+        name: string,
+        icon: object,
+        url: string,
+        buttonTitle: string,
+        clickCopy: boolean
+    }) => {
+        return {
+            ...contact,
+            icon: grabImage(contact.icon)
+        }
+    })
     return (
         <div style={{ height: "100%" }}>
             <TitleBlock
@@ -29,7 +52,7 @@ const Page = async () => {
                     {
                         info.contactLinks?.map((contact: {
                             name: string,
-                            icon: object,
+                            icon: string,
                             url: string,
                             buttonTitle: string,
                             clickCopy: boolean
