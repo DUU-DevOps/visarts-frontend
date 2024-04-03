@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Grid, GridCol, Center, Title } from '@mantine/core';
+import { Image, Grid, GridCol, Center } from '@mantine/core';
 
 const Footer = ({email} : {email: string}) => {
 

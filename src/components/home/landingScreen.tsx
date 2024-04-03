@@ -1,7 +1,6 @@
 import React from 'react'
 import { grabImage } from "../../lib/sanityClient";
-import { Avatar, Group, Title, Text, Grid, GridCol } from '@mantine/core';
-
+import { Avatar, Title, Text, Grid, GridCol } from '@mantine/core';
 
 
 

@@ -1,6 +1,5 @@
 "use client";
 import React from 'react'
-import { Button } from '@mantine/core';
 import { Carousel, CarouselSlide } from '@mantine/carousel'
 import EventCard from './eventCard'
 

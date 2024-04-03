@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { Grid, GridCol, Title, Text, Stack, Center, Button, Anchor, Group } from '@mantine/core';
+import { Grid, GridCol, Title, Text, Stack, Center, Button, Anchor } from '@mantine/core';
 import EventCarousel from './eventCarousel';
 
 

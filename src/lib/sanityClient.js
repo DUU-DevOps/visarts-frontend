@@ -1,6 +1,6 @@
 
-const PROJECT_ID='iwi3amti'
-const DATASET='production'
+const PROJECT_ID=process.env.PROJECT_ID
+const DATASET=process.env.DATASET
 
 export function createURL (type) {
   let QUERY = encodeURIComponent(`*[_type == "${type}"]`);
@@ -32,7 +32,7 @@ export const grabFile = (source) => {
 
 
 export async function getData(url) {
-  const res = await fetch(url, {next: {revalidate: 300}});
+  const res = await fetch(url, {next: {revalidate: 100}});
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }

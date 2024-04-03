@@ -1,11 +1,10 @@
 import React from 'react'
-import { createURL, getData, grabImage } from '@/lib/sanityClient'
-import { Center, Title, Text, Stack, Group, Grid, GridCol } from '@mantine/core';
+import { createURL, getData } from '@/lib/sanityClient'
+import { Center, Grid, GridCol } from '@mantine/core';
 import ContactLink from '@/components/get-involved/contactLink';
 import TitleBlock from '@/components/titleBlock';
-import AlbumCard from '@/components/get-involved/albumCard';
-import AlbumModal from '@/components/get-involved/albumModal';
 import Albums from '@/components/get-involved/albums';
+
 
 const Page = async () => {
     const settingsURL = createURL("siteSettings");
@@ -44,10 +43,16 @@ const Page = async () => {
                     }
                 </Grid>
             </Center>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{position: 'absolute', backgroundColor: "transparent"}}>
-                <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-body)"/>
-            </svg>
-            <Albums albums={albums} />
+            {
+                albums && albums.length > 0 &&
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{ position: 'absolute', backgroundColor: "transparent" }}>
+                    <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-body)" />
+                </svg>
+            }
+            {
+                albums && albums.length > 0 &&
+                <Albums albums={albums} />
+            }
         </div>
     )
 }

@@ -1,9 +1,7 @@
-import { Grid, GridCol, Title, Text, Image, Stack, Center, Anchor, Button, ActionIcon } from '@mantine/core'
+import { Grid, GridCol, Title, Text, Image, Stack, Center, Anchor, Button } from '@mantine/core'
 import React from 'react'
 import { grabImage, getData, createURL } from '@/lib/sanityClient'
-import { IconArrowDown } from '@tabler/icons-react'
 import ArtistCard from '@/components/artists/artistCard'
-import TitleBlock from '@/components/titleBlock'
 
 
 const Page = async () => {
@@ -44,18 +42,24 @@ const Page = async () => {
                     </GridCol>
                 </Grid>
             </section>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{position: 'absolute', backgroundColor: "transparent"}}>
-                <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-body)"/>
-            </svg>
-            <section style={{ backgroundImage: `url(${grabImage(siteInfo.brownGallery.backgroundImage)})`, backgroundSize: 'cover', paddingTop: '1rem' }}>
-                <Grid gutter='none' align="stretch">
-                    {artists.map((artist: any, key: number) => (
-                        <GridCol key={key} span={{base: 12, sm: 6, md: 4}} p={20}>
-                            <ArtistCard artist={artist} />
-                        </GridCol>
-                    ))}
-                </Grid>
-            </section>
+            {
+                artists && artists.length > 0 &&
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{ position: 'absolute', backgroundColor: "transparent" }}>
+                    <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-body)" />
+                </svg>
+            }
+            {
+                artists && artists.length > 0 &&
+                <section style={{ backgroundImage: `url(${grabImage(siteInfo.brownGallery.backgroundImage)})`, backgroundSize: 'cover', paddingTop: '1rem' }}>
+                    <Grid gutter='none' align="stretch">
+                        {artists.map((artist: any, key: number) => (
+                            <GridCol key={key} span={{ base: 12, sm: 6, md: 4 }} p={20}>
+                                <ArtistCard artist={artist} />
+                            </GridCol>
+                        ))}
+                    </Grid>
+                </section>
+            }
         </div>
     )
 }

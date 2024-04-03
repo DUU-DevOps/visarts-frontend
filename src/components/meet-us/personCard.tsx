@@ -17,8 +17,8 @@ const PersonCard = ({ person, onClick }: {
                 <CardSection>
                     <Image
                         src={person.image.asset && grabImage(person.image)}
-                        h={300}
-                        w={300}
+                        h={200}
+                        w={200}
                         alt={person.name}
                         onClick={onClick}
                     />

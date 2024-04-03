@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, Image, BackgroundImage, Text } from '@mantine/core';
+import { Modal, Image, Text } from '@mantine/core';
 import { grabImage } from '@/lib/sanityClient';
 
 const ImageModal = ({ image, opened, close }: {

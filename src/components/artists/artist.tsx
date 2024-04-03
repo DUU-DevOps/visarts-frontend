@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { Title, Grid, GridCol, Image, Stack, Text, Center } from "@mantine/core";
+import { Title, Grid, GridCol, Image, Stack, Text } from "@mantine/core";
 import GalleryCarousel from './galleryCarousel';
 import { grabImage } from '@/lib/sanityClient';
 import { useState } from 'react';

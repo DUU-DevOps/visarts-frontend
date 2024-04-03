@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardSection, Image, Text, Title, Anchor, UnstyledButton, Group } from '@mantine/core';
+import { Card, CardSection, Image, Text, Title, Anchor } from '@mantine/core';
 import { grabImage } from '@/lib/sanityClient';
 
 const ArtistCard = ({ artist }: {

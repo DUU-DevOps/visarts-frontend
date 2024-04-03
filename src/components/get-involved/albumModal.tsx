@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, Image, BackgroundImage, Text } from '@mantine/core';
+import { Modal, Image } from '@mantine/core';
 import { grabImage } from '@/lib/sanityClient';
 import { Carousel, CarouselSlide } from '@mantine/carousel';
 

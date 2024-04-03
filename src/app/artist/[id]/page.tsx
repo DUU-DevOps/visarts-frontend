@@ -1,5 +1,5 @@
 import Artist from "@/components/artists/artist";
-import { createURLById, getData, grabImage } from "@/lib/sanityClient"
+import { createURLById, getData } from "@/lib/sanityClient"
 
 
 export default async function Page({ params }: { params: { id: string } }) {

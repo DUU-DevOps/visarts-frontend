@@ -1,5 +1,5 @@
 import React from 'react'
-import { Center, Group, Anchor, Tooltip } from '@mantine/core';
+import { Group, Anchor, Tooltip } from '@mantine/core';
 import { IconBrandInstagram, IconBrandFacebook, IconBrandPinterest, IconBrandTwitter, IconLink } from '@tabler/icons-react';
 
 function capitalizeFirstLetter(string: string) {

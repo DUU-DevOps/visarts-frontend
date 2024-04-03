@@ -38,10 +38,10 @@ export default async function Events() {
                     <EventsCalendar />
                 </GridCol>
             </Grid>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{position: 'absolute', backgroundColor: "transparent"}}>
-                <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-accent-1)"/>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{ position: 'absolute', backgroundColor: "transparent" }}>
+                <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-accent-1)" />
             </svg>
-            <div style={{marginTop: 70}}>
+            <div style={{ marginTop: 70 }}>
                 <EventCarousel events={upcomingEvents} />
             </div>
         </div>

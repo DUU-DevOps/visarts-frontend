@@ -19,15 +19,26 @@ const EventCard = ({ event, spoilerControlRef }: {
         const formattedDate = dateObject.toLocaleDateString('en-US', options);
         return formattedDate;
     }
-
-    return (
+   return (
         <Card shadow="sm" radius="md" padding="xl" style={{ width: "100%", height: "100%" }} bg={"var(--mantine-color-primary-8)"}>
             <CardSection>
-                <Image
-                    src={fixImageURL(event.image)}
-                    height={200}
-                    width={"100%"}
-                />
+                {
+                    event.image ?
+                    <Image
+                        src={fixImageURL(event.image)}
+                        height={200}
+                        width={"100%"}
+                    />
+                    :
+                    <div
+                        style={{
+                            width: "100%",
+                            height: 200,
+                            backgroundColor: "var(--mantine-color-accent-1)",
+                            borderRadius: "var(--mantine-radius-md)"
+                        }}
+                    />
+                }
             </CardSection>
             <div>
                 <Title order={5} c={"accent.1"} mt="lg" mb="lg" fw={500}>{event.summary}</Title>

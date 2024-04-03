@@ -45,7 +45,7 @@ const Shell = ({
   return (
     <>
       <AppShell
-        header={{ height: 120 }}
+        header={{ height: 140 }}
         navbar={{
           width: 10,
           breakpoint: 'sm',

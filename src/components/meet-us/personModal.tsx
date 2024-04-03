@@ -45,7 +45,7 @@ const PersonModal = ({ person, opened, close, title }:
                 <Text mt="xs" size="lg" c="gray.7">
                     {person.title}
                 </Text>
-                <Text mt="md" c="gray.8" bg="var(--mantine-color-secondary-1)" p={10}>
+                <Text mt="md" c="gray.8" bg="var(--mantine-color-primary-1)" p={10}>
                     {person.bio}
                 </Text>
                 </Card>
