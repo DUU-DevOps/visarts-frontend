@@ -19,8 +19,11 @@ export default async function Home() {
   const upcomingEvents = upcomingEventsData.events;
   return (
     <main>
-      <section>
+      <section >
         <LandingScreen landingInfo={landingInfo} />
+      </section>
+      <section style={{ marginBottom: '2rem' }}>
+        <UpcomingEvents events={upcomingEvents} text={siteInfo.homepageInfo.eventsText}/>
       </section>
       <section>
         <ContentBlock
@@ -54,9 +57,6 @@ export default async function Home() {
           orientation="left"
           color='var(--mantine-color-accent-1)'
           link={siteInfo.events.link && siteInfo.events.link !== ""? siteInfo.events.link : '/events' } />
-      </section>
-      <section style={{ marginBottom: '2rem' }}>
-        <UpcomingEvents events={upcomingEvents} text={siteInfo.homepageInfo.eventsText}/>
       </section>
     </main>
   );

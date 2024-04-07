@@ -16,7 +16,7 @@ export const LandingScreen = async ({ landingInfo }: {
 
 
   return (
-    <div style={{ backgroundImage: `url(${grabImage(landingInfo.backgroundImage)})`, backgroundSize: 'cover', height: '80vh', position: 'relative' }}>
+    <div style={{ backgroundImage: `url(${grabImage(landingInfo.backgroundImage)})`, backgroundSize: 'cover', height: '86vh', position: 'relative' }}>
       <div style={{ position: 'absolute', top: "20%", backgroundColor: 'var(--mantine-color-secondary-1)' }} >
         <Grid gutter="none" align="center">
           <GridCol span={{ base: 6, sm: 6 }} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
