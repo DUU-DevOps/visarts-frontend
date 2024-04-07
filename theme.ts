@@ -9,7 +9,7 @@ export const theme = createTheme({
     fontFamily: "var(--open_sans), sans-serif",
     primaryColor: "primary",
     colors: {
-      "primary": generateColors("#171845"),
+      "primary": generateColors("#171846"),
       "secondary": generateColors("#faa29a"),
       "accent": generateColors("#eeeeee"),
     },
