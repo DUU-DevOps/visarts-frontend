@@ -19,7 +19,7 @@ export function createURLById(type, itemId) {
 export function grabImage(source) {
   const link = source.asset._ref.slice(6, source.asset._ref.lastIndexOf('-'));
   const filetype = source.asset._ref.slice(source.asset._ref.lastIndexOf('-') + 1, source.asset._ref.length);
-  let url = `https://cdn.sanity.io/images/${PROJECT_ID}/${DATASET}/${link}.${filetype}`;
+  let url = `https://cdn.sanity.io/images/${PROJECT_ID}/${DATASET}/${link}.${filetype}?auto=format`;
   return url;
 }
 

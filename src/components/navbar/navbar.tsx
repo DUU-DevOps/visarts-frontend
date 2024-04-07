@@ -26,7 +26,7 @@ return (
             </Group>
             <Group ml={100} justify='space-between' w="80%"  align='center' visibleFrom='sm'>
                 <Anchor href="/" c="var(--mantine-color-primary-8)" >
-                    <Title order={1} fw="800" >
+                    <Title order={2} fw="800" >
                         {title}
                     </Title>
                 </Anchor>
@@ -34,7 +34,7 @@ return (
                     <SocialLinks socialLinks={socialLinks} color="var(--mantine-color-gray-9)" />
                 </div>
             </Group>
-            <Group visibleFrom='sm' ml={100} w={1200}>
+            <Group visibleFrom='sm' ml={100} w={1200} >
                 {links.map((link, key) => (
                     <Navlink name={link.name} key={key} link={link.link} />
                 ))}

@@ -1,5 +1,5 @@
 "use client";
-import React, { ReactNode } from 'react'
+import React, { ReactNode, useState, useEffect } from 'react'
 import { AppShellMain, AppShell, AppShellNavbar, AppShellHeader, Group, Divider } from '@mantine/core';
 import Footer from '@/components/footer';
 import Navlink from '@/components/navbar/navlink';
@@ -7,6 +7,9 @@ import { IconCalendarEvent, IconHeartHandshake, IconFriends, IconBrush } from '@
 import Navbar from '@/components/navbar/navbar';
 import { useDisclosure } from '@mantine/hooks';
 import SocialLinks from '@/components/socialLinks';
+import { motion, useAnimation } from 'framer-motion';
+import { useHeadroom } from '@mantine/hooks';
+
 
 
 
@@ -35,17 +38,23 @@ const links = [
 
 
 const Shell = ({
-  children, socialLinks, email, title }: { 
-    children: ReactNode, 
-    socialLinks: { type: string, url: string }[], 
-    email: string, 
-    title: string }) => {
+  children, socialLinks, email, title }: {
+    children: ReactNode,
+    socialLinks: { type: string, url: string }[],
+    email: string,
+    title: string
+  }) => {
 
   const [opened, { open, close, toggle }] = useDisclosure();
+
+  const [scrollDir, setScrollDir] = useState("down");
+
+  const pinned = useHeadroom({ fixedAt: 120 });
+
   return (
     <>
       <AppShell
-        header={{ height: 140 }}
+        header={{ height: 110, collapsed: !pinned, offset: false}}
         navbar={{
           width: 10,
           breakpoint: 'sm',
@@ -68,11 +77,11 @@ const Shell = ({
               </div>
             ))
           }
-          <div style={{marginLeft: '5rem',  height: '4rem', display: 'flex', alignItems: 'center' }}>
+          <div style={{ marginLeft: '5rem', height: '4rem', display: 'flex', alignItems: 'center' }}>
             <SocialLinks socialLinks={socialLinks} color="var(--mantine-color-gray-9)" />
           </div>
         </AppShellNavbar>
-        <AppShellMain className='main'>
+        <AppShellMain className='main' mt={110}>
           {children}
         </AppShellMain>
       </AppShell>
