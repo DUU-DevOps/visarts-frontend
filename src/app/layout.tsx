@@ -19,7 +19,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "DUU VisArts" ,
-  description: "DUU VisArts is a student-run organization at Duke University that provides resources and opportunities for students interested in visual arts. We host workshops, exhibitions, and other events to foster a community of artists and art enthusiasts.",
+  description: "DUU VisArts is a student-run organization at Duke University that provides resources and opportunities for students interested in visual arts. We host workshops, exhibitions, and other events to foster a community of artists and art enthusiasts."
 };
 
 
@@ -36,7 +36,7 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta
           name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
+          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=yes, maximum-scale=5"
         />
       </head>
       <body>

@@ -27,7 +27,7 @@ const SocialLinks = ({ socialLinks, color }: { socialLinks?: { type: string, url
                 {
                     socialLinks && socialLinks.map((socialLink, key) => (
                         <Tooltip key={key} label={capitalizeFirstLetter(socialLink.type)} position="bottom">
-                            <Anchor href={socialLink.url} target="_blank">
+                            <Anchor href={socialLink.url} target="_blank" aria-label={socialLink.type}>
                                 {getIcon(socialLink.type)}
                             </Anchor>
                         </Tooltip>
