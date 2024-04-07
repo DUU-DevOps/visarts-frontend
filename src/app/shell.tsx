@@ -47,14 +47,12 @@ const Shell = ({
 
   const [opened, { open, close, toggle }] = useDisclosure();
 
-  const [scrollDir, setScrollDir] = useState("down");
-
   const pinned = useHeadroom({ fixedAt: 120 });
 
   return (
     <>
       <AppShell
-        header={{ height: 110, collapsed: !pinned, offset: false}}
+        header={{ height: 110, collapsed: !pinned && !opened, offset: false}}
         navbar={{
           width: 10,
           breakpoint: 'sm',
@@ -64,7 +62,7 @@ const Shell = ({
         <AppShellHeader w={"100%"}>
           <Navbar title={title} links={links} toggle={toggle} socialLinks={socialLinks} opened={opened} />
         </AppShellHeader>
-        <AppShellNavbar hiddenFrom="sm" w={320}>
+        <AppShellNavbar hiddenFrom="sm" w={320} mt={110}>
           {
             links.map((link, key) => (
               <div key={key}>
@@ -77,7 +75,7 @@ const Shell = ({
               </div>
             ))
           }
-          <div style={{ marginLeft: '5rem', height: '4rem', display: 'flex', alignItems: 'center' }}>
+          <div style={{ display: 'flex',  alignItems: 'flex-start', justifyContent: 'center', marginTop: '1rem' }}>
             <SocialLinks socialLinks={socialLinks} color="var(--mantine-color-gray-9)" />
           </div>
         </AppShellNavbar>
