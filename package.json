@@ -12,7 +12,7 @@
     "@mantine/carousel": "^7.5.3",
     "@mantine/colors-generator": "^7.5.3",
     "@mantine/core": "^7.5.3",
-    "@mantine/hooks": "^7.5.3",
+    "@mantine/hooks": "^7.7.1",
     "@tabler/icons-react": "^2.47.0",
     "chroma-js": "^2.4.2",
     "embla-carousel-react": "^7.1.0",
