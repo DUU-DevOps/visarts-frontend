@@ -10,15 +10,15 @@ const SocialLinks = ({ socialLinks, color }: { socialLinks?: { type: string, url
     const getIcon = (icon: string) => {
         switch (icon.toLowerCase()) {
             case "instagram":
-                return <IconBrandInstagram size={40} color={color} />;
+                return <IconBrandInstagram size={30} color={color} />;
             case "facebook":
-                return <IconBrandFacebook size={40} color={color} />;
+                return <IconBrandFacebook size={30} color={color} />;
             case "twitter":
-                return <IconBrandTwitter size={40} color={color} />;
+                return <IconBrandTwitter size={30} color={color} />;
             case "pinterest":
-                return <IconBrandPinterest size={40} color={color} />;
+                return <IconBrandPinterest size={30} color={color} />;
             default:
-                return <IconLink size={40} color={color} />;
+                return <IconLink size={30} color={color} />;
         }
     }
 
