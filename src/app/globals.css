@@ -1,3 +1,9 @@
+@import url("//fonts.googleapis.com/css?family=Product+Sans");.logo-plus-button {
+    height: 18px;
+    background-color: #fff;
+    padding-right: 2px
+}
+
 @media screen and (min-width: 1400px){
     .header-title {
       font-size: 3vw;
