@@ -42,7 +42,7 @@ export default async function Events() {
                 <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-accent-1)" />
             </svg>
             <div style={{ marginTop: 70 }}>
-                <EventCarousel events={upcomingEvents} />
+                {/* <EventCarousel events={upcomingEvents} /> */}
             </div>
         </div>
     )

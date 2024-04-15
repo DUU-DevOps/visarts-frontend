@@ -23,7 +23,7 @@ export default async function Home() {
         <LandingScreen landingInfo={landingInfo} />
       </section>
       <section style={{ marginBottom: '2rem' }}>
-        <UpcomingEvents events={upcomingEvents} text={siteInfo.homepageInfo.eventsText}/>
+        {/* <UpcomingEvents events={upcomingEvents} text={siteInfo.homepageInfo.eventsText}/> */}
       </section>
       <section>
         <ContentBlock
