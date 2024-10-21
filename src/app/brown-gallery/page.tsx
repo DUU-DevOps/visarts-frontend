@@ -26,7 +26,7 @@ const Page = async () => {
                                     {siteInfo.brownGallery.text}
                                 </Text>
                             </Center>
-                            <Center mt="auto">
+                            {/* <Center mt="auto">
                                 <Stack>
                                     <Anchor href={siteInfo.brownGallery.link} target="_blank">
                                         <Button color='primary.5' size='lg'>
@@ -34,7 +34,7 @@ const Page = async () => {
                                         </Button>
                                     </Anchor>
                                 </Stack>
-                            </Center>
+                            </Center> */}
                         </Stack>
                     </GridCol>
                     <GridCol span={{ base: 12, sm: 5 }} >

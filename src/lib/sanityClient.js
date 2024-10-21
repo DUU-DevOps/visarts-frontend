@@ -5,6 +5,7 @@ const DATASET = process.env.DATASET
 export function createURL(type) {
   let QUERY = encodeURIComponent(`*[_type == "${type}"]`);
   let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+  // To test url: https://iwi3amti.api.sanity.io/v2021-10-21/data/query/production?query=${QUERY}
   return url;
 }
 
@@ -34,7 +35,7 @@ export const grabFile = (source) => {
 export async function getData(url) {
   const res = await fetch(url, { next: { revalidate: 100 } });
   if (!res.ok) {
-    throw new Error('Failed to fetch data')
+    throw new Error(`Failed to fetch data from ${url}`)
   }
   return res.json();
 }
