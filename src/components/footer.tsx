@@ -21,9 +21,9 @@ const Footer = ({email} : {email: string}) => {
                 <GridCol span={{base: 12, md: 4}}>
                     <Center>
                         <div>
-                            <p style={{fontSize: '0.8rem', color:"var(--mantine-color-gray-3)", textAlign: 'center' }}>
-                                contact: {email}
-                            </p>
+                            <a href={email} style={{fontSize: '0.8rem', color:"var(--mantine-color-gray-3)", textAlign: 'center' }}>
+                                GroupMe
+                            </a>
                         </div>
                     </Center>
                 </GridCol>
