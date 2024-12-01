@@ -4,7 +4,7 @@ const DATASET = process.env.DATASET
 
 export function createURL(type) {
   let QUERY = encodeURIComponent(`*[_type == "${type}"]`);
-  let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+  let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/production?query=${QUERY}`;
   // To test url: https://iwi3amti.api.sanity.io/v2021-10-21/data/query/production?query=${QUERY}
   return url;
 }

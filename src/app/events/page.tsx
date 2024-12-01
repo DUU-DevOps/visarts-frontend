@@ -26,23 +26,23 @@ export default async function Events() {
                             </Text>
                         }
                         <Center mt={20}>
-                            <Anchor href={siteInfo.events.link} target="_blank">
+                            <Anchor href={siteInfo.events.link} target="_blank">    {/*Interaction with database*/}
                                 <Button color="primary" radius="md" size="lg">
-                                    Register Through LinkTree
+                                    View on DukeGroups
                                 </Button>
                             </Anchor>
                         </Center>
                     </Stack>
                 </GridCol>
                 <GridCol p={20} span={{ base: 12, md: 8 }} w="100%">
-                    <EventsCalendar />
+                    <EventsCalendar/>
                 </GridCol>
             </Grid>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none" style={{ position: 'absolute', backgroundColor: "transparent" }}>
                 <polygon points="100 0 100 10 0 0" fill="var(--mantine-color-accent-1)" />
             </svg>
             <div style={{ marginTop: 70 }}>
-                <EventCarousel events={upcomingEvents} />
+                <EventCarousel events={upcomingEvents} /> 
             </div>
         </div>
     )
