@@ -7,13 +7,13 @@ const PersonCard = ({ person, onClick }: {
         name: string,
         bio: string
         title: string,
-        image: any
+        //image: any
     },
     onClick: () => void
 }) => {
     return (
         <Card>
-            <UnstyledButton onClick={onClick}>
+            {/* <UnstyledButton onClick={onClick}>
                 <CardSection>
                     <Image
                         src={person.image && person.image.asset ?  grabImage(person.image) : './blank-avatar.webp'}
@@ -23,7 +23,7 @@ const PersonCard = ({ person, onClick }: {
                         onClick={onClick}
                     />
                 </CardSection>
-            </UnstyledButton>
+            </UnstyledButton> */}
             <Text fw={500} size="lg" mt="md">
                 {person.name}
             </Text>
