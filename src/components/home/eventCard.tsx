@@ -5,8 +5,7 @@ import { fixImageURL } from '@/lib/calendarClient'
 const EventCard = ({ event, spoilerControlRef }: {
     event: {
         summary: string,
-        start_timestamp: string,
-        location: { address: string },
+        startDate: string,
         description: string,
         image: string,
         link: string
@@ -45,7 +44,7 @@ const EventCard = ({ event, spoilerControlRef }: {
             </div>
             <Stack justify='space-between' mb="1rem">
                 <Badge bg="var(--mantine-color-secondary-3)" size='md'>
-                    {formatDate(event.start_timestamp)}
+                    {formatDate(event.startDate)}
                     {/* {event.start_timestamp} */}
                 </Badge>
             </Stack>

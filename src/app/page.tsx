@@ -16,14 +16,14 @@ export default async function Home() {
     visartsIcon: siteInfo.homepageInfo.visartsIcon,
   }
   const upcomingEventsData = await getUpcomingEventsData();
-  const upcomingEvents = upcomingEventsData.events;
+  const upcomingEvents = upcomingEventsData;
   return (
     <main>
       <section >
         <LandingScreen landingInfo={landingInfo} />
       </section>
       <section style={{ marginBottom: '2rem' }}>
-        {/* <UpcomingEvents events={upcomingEvents} text={siteInfo.homepageInfo.eventsText}/> */}
+        <UpcomingEvents events={upcomingEvents} text={siteInfo.homepageInfo.eventsText}/>
       </section>
       <section>
         <ContentBlock
