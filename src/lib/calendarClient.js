@@ -29,7 +29,19 @@ export async function getUpcomingEventsData() {
       event["link"] = "https://duke.campusgroups.com/events?group_ids=28658";
     }
     eventsData.sort(compareEvents);
-    return Array.from(eventsData);
+
+    var formattedEventsData = []
+    for (var event of eventsData){
+      formattedEventsData.push({
+        "summary": event["summary"],
+        "startDate": event["startDate"],
+        "description": event["description"],
+        "image": event["image"],
+        "link": event["link"],
+      })
+    }
+
+    return formattedEventsData;
   }
 
 
