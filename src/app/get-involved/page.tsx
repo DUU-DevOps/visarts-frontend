@@ -15,6 +15,15 @@ const Page = async () => {
     const albumsLink = createURL("album");
     const albumsData = await getData(albumsLink);
     let albums = albumsData.result;
+
+    for (var i=0; i<albums.length; i++){
+        var current = albums[i]
+        if (current["name"].toLowerCase() == "site events images"){
+            albums.splice(i, 1);    // Remove album.
+            break;
+        }
+    }
+
     albums = albums.map((album : any) => {
         return {
             ...album,
