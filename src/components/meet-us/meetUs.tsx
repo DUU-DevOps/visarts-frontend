@@ -38,7 +38,7 @@ const MeetUs = ({ people }: {
     }
     people.sort((a, b) => {
         if (a.order > b.order || a.order === undefined) {
-            return 1;
+            return -1;
         }
         if (a.order < b.order || b.order === undefined) {
             return -1;

@@ -19,7 +19,7 @@ export default async function Meet() {
                 <TitleBlock title="Meet Us" text={siteInfo.meetUs.text} image={siteInfo.meetUs.image} color="var(--mantine-color-primary-4)" orientation="left" />
             </section>
             <section>
-                <MeetUs people={people} />
+                <MeetUs people={people}/>
             </section>
         </div>
     )
