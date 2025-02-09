@@ -37,10 +37,10 @@ const MeetUs = ({ people }: {
         setOpened(true);
     }
     people.sort((a, b) => {
-        if (a.order > b.order || a.order === undefined) {
-            return -1;
+        if (a.name > b.name || a.title === undefined) {
+            return 1;
         }
-        if (a.order < b.order || b.order === undefined) {
+        if (a.name < b.name || b.title === undefined) {
             return -1;
         }
         return 0;
