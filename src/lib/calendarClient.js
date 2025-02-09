@@ -1,6 +1,25 @@
 import { icsToJson } from "ics-to-json";
 
 
+function areEventsEqual(a, b) {
+  return (
+    a["startDate"] == b["startDate"] &&
+    a["endDate"] == b["endDate"] &&
+    a["description"] == b["description"] &&
+    a["location"] == b["location"] &&
+    a["summary"] == b["summary"]
+  );
+}
+
+
+function removeDuplicateEvents(eventsData) {
+  eventsData = eventsData.filter((event, index, self) => {
+    return self.findIndex(e => areEventsEqual(e, event)) === index;
+  });
+  return eventsData;
+}
+
+
 export async function getUpcomingEventsData() {
     const urlPast = "https://duke.campusgroups.com/ics?group_ids=28658&show=past&school=duke";
     const urlUpcoming = "https://duke.campusgroups.com/ics?group_ids=28658&school=duke";
@@ -10,7 +29,7 @@ export async function getUpcomingEventsData() {
       throw new Error('Failed to fetch data')
     }
     var text = await res.text();
-    var eventsData = icsToJson(text).slice(-10); // slicing to get most immediate events.
+    var eventsData = icsToJson(text).slice(-20); // slicing to get most immediate events.
 
     // Fetch past events if no upcoming events.
     if (eventsData.length == 0){
@@ -18,7 +37,9 @@ export async function getUpcomingEventsData() {
       text = await resPast.text();
       eventsData = icsToJson(text).slice(-5);
     }
-    
+
+    eventsData = removeDuplicateEvents(eventsData);
+
     for (var event of eventsData){
       event["startDate"] = convertToFormattedIso(event["startDate"]);
       event["endDate"] = convertToFormattedIso(event["endDate"]);
