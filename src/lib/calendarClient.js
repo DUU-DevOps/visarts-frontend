@@ -43,7 +43,8 @@ export async function getUpcomingEventsData() {
     for (var event of eventsData){
       event["startDate"] = convertToFormattedIso(event["startDate"]);
       event["endDate"] = convertToFormattedIso(event["endDate"]);
-      const imageLink = getImage(event["summary"]);
+      let imageLink = getImage(event["summary"]);
+      imageLink = await getImageURL(event["summary"]);
       if (imageLink){
         event["image"] = imageLink;
       }
@@ -108,6 +109,20 @@ export function getImage(summary){
     return "https://cdn.sanity.io/images/iwi3amti/production/311e181a637fb329ab94e6546d119278ab10f86b-1280x640.png"
   }
   return null;
+}
+
+
+async function getImageURL(eventName) {
+  const dataURL = "https://raw.githubusercontent.com/DUU-DevOps/visarts-frontend/refs/heads/main/event_images/data.json";
+
+  const response = await fetch(dataURL);
+  const data = await response.json();
+
+  for (let event of data) {
+    if (event.name == eventName) {
+      return event.img_link;
+    }
+  }
 }
 
   
