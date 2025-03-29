@@ -3,6 +3,7 @@ name: Scrape event image links
 on:
   schedule:
     - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   run-scraper:
