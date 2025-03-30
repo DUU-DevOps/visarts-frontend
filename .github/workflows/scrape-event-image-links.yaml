@@ -14,6 +14,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
 
+      - name: Show commit logs
+        run: git log --oneline
+
       - name: Setup Python
         uses: actions/setup-python@v5.5.0
         with:
