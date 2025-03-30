@@ -118,7 +118,7 @@ async function getImageURL(eventName) {
   const response = await fetch(dataURL);
   const data = await response.json();
 
-  for (let event of data) {
+  for (let event of data.data) {
     if (event.name == eventName) {
       return event.img_link;
     }

@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 
@@ -32,5 +33,9 @@ for url in urls:
             "img_link": img_link
         })
 
+data = {
+    "data": data,
+    "last_updated": str(datetime.now())
+}
 with open("data.json", "w") as file:
     json.dump(data, file, indent=2)
