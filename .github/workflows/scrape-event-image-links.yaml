@@ -22,19 +22,19 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Change directory
-        run: cd event_images
-
       - name: Install dependencies
         run: pip3 install -r requirements.txt
+        working-directory: event_images
 
       - name: Run scraper
         run: python3 scraper.py
+        working-directory: event_images
 
       - name: Show data.json file changes
         run: |
           git status
           cat data.json
+        working-directory: event_images
 
       - name: Commit and push changes
         run: |
@@ -47,3 +47,4 @@ jobs:
             git commit -m "Update data.json"
             git push
           fi
+        working-directory: event_images
