@@ -28,6 +28,11 @@ jobs:
       - name: Run scraper
         run: python3 event_images/scraper.py
 
+      - name: Show data.json file changes
+        run: |
+          git status
+          cat event_images/data.json
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
