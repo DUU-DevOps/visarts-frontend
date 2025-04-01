@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "DUU VisArts Figure Drawing Workshop",
-      "date": "Mon, Mar 31, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110164428.png"
-    },
-    {
       "name": "Flower Bouquet Making Event",
       "date": "Thu, Apr 3, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Flower_Bouquet_Making_32793736.png"
@@ -29,6 +24,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Apr 15, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Knitting_Workshop_Duke_Groups5_32795128.png"
+    },
+    {
+      "name": "DUU VisArts Figure Drawing Workshop",
+      "date": "Mon, Mar 31, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110164428.png"
     },
     {
       "name": "Watercolor in the Gardens",
@@ -133,12 +133,12 @@
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     },
     {
       "name": "VisArts Bob Ross Canvas Painting",
@@ -224,12 +224,7 @@
       "name": "VisArts October Gallery Opening",
       "date": "Sat, Oct 5, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_October_Brown_Gallery_Duke_Groups_92912295.png"
-    },
-    {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Sep 30, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     }
   ],
-  "last_updated": "2025-03-31 00:43:57.875675"
+  "last_updated": "2025-04-01 00:47:52.843113"
 }
