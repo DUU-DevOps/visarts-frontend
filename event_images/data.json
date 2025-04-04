@@ -1,14 +1,14 @@
 {
   "data": [
     {
-      "name": "Flower Bouquet Making Event",
-      "date": "Thu, Apr 3, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Flower_Bouquet_Making_32793736.png"
-    },
-    {
       "name": "DUU VisArts Figure Drawing Workshop",
       "date": "Mon, Apr 7, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110164750.png"
+    },
+    {
+      "name": "UEU Brown Gallery Opening",
+      "date": "Thu, Apr 10, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_UEU_Brown_Gallery_DG2_4211558.png"
     },
     {
       "name": "Bob Ross Canvas Painting",
@@ -24,6 +24,16 @@
       "name": "Knitting Workshop",
       "date": "Tue, Apr 15, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Knitting_Workshop_Duke_Groups5_32795128.png"
+    },
+    {
+      "name": "Disney Night: The Princess and the Frog",
+      "date": "Thu, Apr 3, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4080960_32EC88E024394C58AE94B77B530536A6_4311489.jpeg"
+    },
+    {
+      "name": "Flower Bouquet Making Event",
+      "date": "Thu, Apr 3, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Flower_Bouquet_Making_32793736.png"
     },
     {
       "name": "DUU VisArts Figure Drawing Workshop",
@@ -183,12 +193,12 @@
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Oct 28, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Oct 28, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     },
     {
       "name": "Twisters Cowboy Hat Decorating",
@@ -214,17 +224,7 @@
       "name": "VisArts x Duke Votes: Cast A Vote, Paint A Tote",
       "date": "Thu, Oct 17, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_VisArts_x_DukeVotes_Collab_Duke_Groups_93094653.png"
-    },
-    {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Oct 7, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
-    },
-    {
-      "name": "VisArts October Gallery Opening",
-      "date": "Sat, Oct 5, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_October_Brown_Gallery_Duke_Groups_92912295.png"
     }
   ],
-  "last_updated": "2025-04-03 00:52:39.549421"
+  "last_updated": "2025-04-04 00:41:09.976826"
 }
