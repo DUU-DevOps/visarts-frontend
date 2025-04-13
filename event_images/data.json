@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Bob Ross Canvas Painting",
-      "date": "Sat, Apr 12, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Copy_of_Bob_Ross_Painting_760_x_380_px2_31816270.png"
-    },
-    {
       "name": "DUU VisArts Figure Drawing Workshop",
       "date": "Mon, Apr 14, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110165527.png"
@@ -14,6 +9,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Apr 15, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Knitting_Workshop_Duke_Groups5_32795128.png"
+    },
+    {
+      "name": "Bob Ross Canvas Painting",
+      "date": "Sat, Apr 12, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Copy_of_Bob_Ross_Painting_760_x_380_px2_31816270.png"
     },
     {
       "name": "UEU Brown Gallery Opening",
@@ -143,12 +143,12 @@
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     },
     {
       "name": "VisArts Bob Ross Canvas Painting",
@@ -181,24 +181,24 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Fright_Fest_Duke_Groups_101721543.png"
     },
     {
-      "name": "Fright Fest",
-      "date": "Thu, Oct 31, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
-    },
-    {
       "name": "Fright Fest - Special Events",
       "date": "Thu, Oct 31, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4847271_Fright_Fest_SPEV_Duke_Groups__1016221320.png"
     },
     {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Oct 28, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "name": "Fright Fest",
+      "date": "Thu, Oct 31, 2024",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Oct 28, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
+    },
+    {
+      "name": "VisArts Figure Drawing Workshop",
+      "date": "Mon, Oct 28, 2024",
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "Twisters Cowboy Hat Decorating",
@@ -209,12 +209,7 @@
       "name": "VisArts Knitting Workshop",
       "date": "Tue, Oct 22, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Knitting_Workshop_Duke_Groups2_930102833.png"
-    },
-    {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Oct 21, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     }
   ],
-  "last_updated": "2025-04-12 00:40:55.069812"
+  "last_updated": "2025-04-13 02:08:20.170385"
 }
