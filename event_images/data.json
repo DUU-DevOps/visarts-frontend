@@ -1,6 +1,11 @@
 {
   "data": [
     {
+      "name": "VisArts Flower Crown Making",
+      "date": "Wed, Apr 23, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4080287_8_46233330.png"
+    },
+    {
       "name": "Knitting Workshop",
       "date": "Tue, Apr 15, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Knitting_Workshop_Duke_Groups5_32795128.png"
@@ -176,9 +181,9 @@
       "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
-      "name": "Fright Fest - Special Events",
+      "name": "Fright Fest",
       "date": "Thu, Oct 31, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4847271_Fright_Fest_SPEV_Duke_Groups__1016221320.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
     },
     {
       "name": "DUU Fright Fest - VIsArts Event",
@@ -186,14 +191,9 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Fright_Fest_Duke_Groups_101721543.png"
     },
     {
-      "name": "Fright Fest",
+      "name": "Fright Fest - Special Events",
       "date": "Thu, Oct 31, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
-    },
-    {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Oct 28, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4847271_Fright_Fest_SPEV_Duke_Groups__1016221320.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
@@ -201,10 +201,10 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     },
     {
-      "name": "Twisters Cowboy Hat Decorating",
-      "date": "Sat, Oct 26, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Twisters_Cowboy_Hat_Duke_Groups_1021103512.png"
+      "name": "VisArts Figure Drawing Workshop",
+      "date": "Mon, Oct 28, 2024",
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     }
   ],
-  "last_updated": "2025-04-15 00:43:03.238503"
+  "last_updated": "2025-04-16 00:43:07.386678"
 }
