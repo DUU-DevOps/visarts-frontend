@@ -1,6 +1,41 @@
 {
   "data": [
     {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Sep 8, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91162829.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Sep 22, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145250.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Oct 6, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145618.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Oct 20, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9114589.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Nov 3, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119011.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Nov 17, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119151.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Dec 1, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
+    },
+    {
       "name": "VisArts Flower Crown Making",
       "date": "Wed, Apr 23, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4080287_8_46233330.png"
@@ -201,5 +236,5 @@
       "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     }
   ],
-  "last_updated": "2025-09-02 00:42:51.671729"
+  "last_updated": "2025-09-03 00:39:57.751826"
 }
