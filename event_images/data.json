@@ -2,11 +2,6 @@
   "data": [
     {
       "name": "Figure Drawing Workshop",
-      "date": "Mon, Sep 8, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91162829.jpeg"
-    },
-    {
-      "name": "Figure Drawing Workshop",
       "date": "Mon, Sep 22, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145250.jpeg"
     },
@@ -34,6 +29,11 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Dec 1, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Sep 8, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91162829.jpeg"
     },
     {
       "name": "VisArts Flower Crown Making",
@@ -183,12 +183,12 @@
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "VisArts Bob Ross Canvas Painting",
@@ -221,20 +221,15 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4847271_Fright_Fest_SPEV_Duke_Groups__1016221320.png"
     },
     {
-      "name": "DUU Fright Fest - VIsArts Event",
-      "date": "Thu, Oct 31, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Fright_Fest_Duke_Groups_101721543.png"
-    },
-    {
       "name": "Fright Fest",
       "date": "Thu, Oct 31, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
     },
     {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Oct 28, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "name": "DUU Fright Fest - VIsArts Event",
+      "date": "Thu, Oct 31, 2024",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Fright_Fest_Duke_Groups_101721543.png"
     }
   ],
-  "last_updated": "2025-09-08 00:44:12.578127"
+  "last_updated": "2025-09-09 00:41:51.833893"
 }
