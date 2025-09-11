@@ -1,6 +1,11 @@
 {
   "data": [
     {
+      "name": "Knitting Workshop",
+      "date": "Mon, Sep 15, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_94213436.jpeg"
+    },
+    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Sep 22, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145250.jpeg"
@@ -231,5 +236,5 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Fright_Fest_Duke_Groups_101721543.png"
     }
   ],
-  "last_updated": "2025-09-10 00:40:51.159913"
+  "last_updated": "2025-09-11 00:41:31.289575"
 }
