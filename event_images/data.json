@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Knitting Workshop",
-      "date": "Mon, Sep 15, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_94213436.jpeg"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Sep 22, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145250.jpeg"
@@ -21,6 +16,11 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9114589.jpeg"
     },
     {
+      "name": "Knitting Workshop",
+      "date": "Mon, Oct 27, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_94213436.jpeg"
+    },
+    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Nov 3, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119011.jpeg"
@@ -34,6 +34,11 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Dec 1, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
+    },
+    {
+      "name": "Knitting Workshop",
+      "date": "Mon, Sep 15, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_94213436.jpeg"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -188,12 +193,12 @@
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     },
     {
       "name": "VisArts Bob Ross Canvas Painting",
@@ -221,20 +226,15 @@
       "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
-      "name": "Fright Fest - Special Events",
-      "date": "Thu, Oct 31, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4847271_Fright_Fest_SPEV_Duke_Groups__1016221320.png"
-    },
-    {
       "name": "Fright Fest",
       "date": "Thu, Oct 31, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
     },
     {
-      "name": "DUU Fright Fest - VIsArts Event",
+      "name": "Fright Fest - Special Events",
       "date": "Thu, Oct 31, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Fright_Fest_Duke_Groups_101721543.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4847271_Fright_Fest_SPEV_Duke_Groups__1016221320.png"
     }
   ],
-  "last_updated": "2025-09-15 00:44:52.083711"
+  "last_updated": "2025-09-16 00:40:38.507194"
 }
