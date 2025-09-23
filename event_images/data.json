@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Sep 22, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145250.jpeg"
+      "name": "\"Made at the Arts Annex\" Brown Gallery Exhibit Opening",
+      "date": "Wed, Oct 1, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Arts_Annex_Gallery_DukeGroups_Photojpg_919194619.jpeg"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -34,6 +34,11 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Dec 1, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Sep 22, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145250.jpeg"
     },
     {
       "name": "Knitting Workshop",
@@ -229,12 +234,7 @@
       "name": "Fright Fest",
       "date": "Thu, Oct 31, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
-    },
-    {
-      "name": "Fright Fest - Special Events",
-      "date": "Thu, Oct 31, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4847271_Fright_Fest_SPEV_Duke_Groups__1016221320.png"
     }
   ],
-  "last_updated": "2025-09-22 00:45:14.125423"
+  "last_updated": "2025-09-23 00:41:11.445363"
 }
