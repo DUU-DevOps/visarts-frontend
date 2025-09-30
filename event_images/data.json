@@ -1,9 +1,24 @@
 {
   "data": [
     {
+      "name": "\"Made at the Arts Annex\" Brown Gallery Exhibit Opening",
+      "date": "Wed, Oct 1, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Arts_Annex_Gallery_DukeGroups_Photojpg_919194619.jpeg"
+    },
+    {
+      "name": "Taylor Swift Night",
+      "date": "Thu, Oct 2, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_TS_Night_DukeGroups_921143031.png"
+    },
+    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Oct 6, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145618.jpeg"
+    },
+    {
+      "name": "Harry Potter Night",
+      "date": "Thu, Oct 9, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Harry_Potter_Night_921144250.png"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -236,5 +251,5 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
     }
   ],
-  "last_updated": "2025-09-29 00:43:13.816772"
+  "last_updated": "2025-09-30 00:42:10.670428"
 }
