@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "\"Made at the Arts Annex\" Brown Gallery Exhibit Opening",
-      "date": "Wed, Oct 1, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Arts_Annex_Gallery_DukeGroups_Photojpg_919194619.jpeg"
-    },
-    {
       "name": "Taylor Swift Night",
       "date": "Thu, Oct 2, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_TS_Night_DukeGroups_921143031.png"
@@ -49,6 +44,11 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Dec 1, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
+    },
+    {
+      "name": "\"Made at the Arts Annex\" Brown Gallery Exhibit Opening",
+      "date": "Wed, Oct 1, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Arts_Annex_Gallery_DukeGroups_Photojpg_919194619.jpeg"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -213,12 +213,12 @@
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "VisArts Bob Ross Canvas Painting",
@@ -244,12 +244,7 @@
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 4, 2024",
       "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
-    },
-    {
-      "name": "Fright Fest",
-      "date": "Thu, Oct 31, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_3588967_Fright_10411477.png"
     }
   ],
-  "last_updated": "2025-10-01 00:47:49.179520"
+  "last_updated": "2025-10-02 00:39:58.209886"
 }
