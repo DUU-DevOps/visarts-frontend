@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Taylor Swift Night",
-      "date": "Thu, Oct 2, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_TS_Night_DukeGroups_921143031.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Oct 6, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145618.jpeg"
@@ -44,6 +39,11 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Dec 1, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
+    },
+    {
+      "name": "Taylor Swift Night",
+      "date": "Thu, Oct 2, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_TS_Night_DukeGroups_921143031.png"
     },
     {
       "name": "\"Made at the Arts Annex\" Brown Gallery Exhibit Opening",
@@ -213,12 +213,12 @@
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     },
     {
       "name": "VisArts Bob Ross Canvas Painting",
@@ -239,12 +239,7 @@
       "name": "November Brown Gallery Opening",
       "date": "Thu, Nov 7, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_November_Brown_Gallery_Duke_Groups_1030113941.png"
-    },
-    {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Nov 4, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     }
   ],
-  "last_updated": "2025-10-03 00:40:35.981691"
+  "last_updated": "2025-10-04 00:38:25.345078"
 }
