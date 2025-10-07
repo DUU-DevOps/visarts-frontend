@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Oct 6, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145618.jpeg"
-    },
-    {
       "name": "Harry Potter Night",
       "date": "Thu, Oct 9, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Harry_Potter_Night_921144250.png"
@@ -39,6 +34,11 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Dec 1, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Oct 6, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145618.jpeg"
     },
     {
       "name": "Taylor Swift Night",
@@ -234,12 +234,7 @@
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 11, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
-    },
-    {
-      "name": "November Brown Gallery Opening",
-      "date": "Thu, Nov 7, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_November_Brown_Gallery_Duke_Groups_1030113941.png"
     }
   ],
-  "last_updated": "2025-10-06 00:42:29.668130"
+  "last_updated": "2025-10-07 00:41:07.831180"
 }
