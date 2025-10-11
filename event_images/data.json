@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Harry Potter Night",
-      "date": "Thu, Oct 9, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Harry_Potter_Night_921144250.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Oct 20, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9114589.jpeg"
@@ -34,6 +29,11 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Dec 1, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
+    },
+    {
+      "name": "Harry Potter Night",
+      "date": "Thu, Oct 9, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Harry_Potter_Night_921144250.png"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -229,12 +229,7 @@
       "name": "La La Land",
       "date": "Thu, Nov 14, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4622283_La_La_Land_Recurring_Poster_11694747.png"
-    },
-    {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Nov 11, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
     }
   ],
-  "last_updated": "2025-10-10 00:41:29.284515"
+  "last_updated": "2025-10-11 00:38:58.868961"
 }
