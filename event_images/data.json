@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Oct 15, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Oct 20, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9114589.jpeg"
@@ -128,6 +123,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Oct 15, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -324,12 +324,7 @@
       "name": "VisArts Bob Ross Canvas Painting",
       "date": "Sat, Nov 16, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Bob_Ross_Duke_Groups_119152240.png"
-    },
-    {
-      "name": "La La Land",
-      "date": "Thu, Nov 14, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4622283_La_La_Land_Recurring_Poster_11694747.png"
     }
   ],
-  "last_updated": "2025-10-15 00:43:00.529934"
+  "last_updated": "2025-10-16 00:42:25.440159"
 }
