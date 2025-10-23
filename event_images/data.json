@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Oct 22, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Knitting Workshop",
       "date": "Mon, Oct 27, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_94213436.jpeg"
@@ -18,7 +13,7 @@
     {
       "name": "VisArts DUU Fright Fest",
       "date": "Thu, Oct 30, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251019_at_60923PM_1019181015.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4847271_Fright_Fest_event_banners_1_1022171459.png"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -128,6 +123,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Oct 22, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -324,12 +324,7 @@
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Nov 18, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups_9923517.png"
-    },
-    {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Nov 18, 2024",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     }
   ],
-  "last_updated": "2025-10-22 00:44:24.817365"
+  "last_updated": "2025-10-23 00:43:12.393613"
 }
