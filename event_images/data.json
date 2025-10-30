@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Oct 29, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "VisArts DUU Fright Fest",
       "date": "Thu, Oct 30, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4847271_Fright_Fest_event_banners_1_1022171459.png"
@@ -24,6 +19,16 @@
       "name": "\"Healer's Journey\" Brown Gallery Exhibit Opening",
       "date": "Thu, Nov 6, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Caitlin_Gallery_Aframe_102316468.png"
+    },
+    {
+      "name": "Space Night",
+      "date": "Fri, Nov 7, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Space_Night_INSTA_1029115743.png"
+    },
+    {
+      "name": "Candles and Caramel Apples",
+      "date": "Wed, Nov 12, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Candles_and_Caramel_Apples_INSTA_1029111320.png"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -49,6 +54,11 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Nov 19, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Gingerbread & Jazz",
+      "date": "Thu, Nov 20, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Gingerbread_and_Jazz_10291277.png"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -123,6 +133,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Oct 29, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -319,12 +334,7 @@
       "name": "VisArts Bob Ross Canvas Painting",
       "date": "Sat, Nov 23, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Bob_Ross_Painting_760_x_380_px_111721121.png"
-    },
-    {
-      "name": "VisArts Knitting Workshop",
-      "date": "Tue, Nov 19, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Knitting_Workshop_Duke_Groups3_930164149.png"
     }
   ],
-  "last_updated": "2025-10-29 00:45:23.669353"
+  "last_updated": "2025-10-30 00:45:17.692647"
 }
