@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts DUU Fright Fest",
-      "date": "Thu, Oct 30, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4847271_Fright_Fest_event_banners_1_1022171459.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Nov 3, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119011.jpeg"
@@ -23,7 +18,7 @@
     {
       "name": "Space Night",
       "date": "Fri, Nov 7, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Space_Night_INSTA_1029115743.png"
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251030_at_65051PM_1030185141.png"
     },
     {
       "name": "Candles and Caramel Apples",
@@ -134,6 +129,11 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts DUU Fright Fest",
+      "date": "Thu, Oct 30, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4847271_Fright_Fest_event_banners_1_1022171459.png"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -329,12 +329,7 @@
       "name": "Gingerbread & Jazz (Jazz@ x VisArts)",
       "date": "Mon, Dec 2, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4622283_1_1120142958.png"
-    },
-    {
-      "name": "VisArts Bob Ross Canvas Painting",
-      "date": "Sat, Nov 23, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Bob_Ross_Painting_760_x_380_px_111721121.png"
     }
   ],
-  "last_updated": "2025-10-30 00:45:17.692647"
+  "last_updated": "2025-10-31 00:43:21.882282"
 }
