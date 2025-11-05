@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Nov 3, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119011.jpeg"
-    },
-    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Nov 5, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
@@ -129,6 +124,11 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Nov 3, 2025",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119011.jpeg"
     },
     {
       "name": "VisArts DUU Fright Fest",
@@ -324,12 +324,7 @@
       "name": "VisArts Figure Drawing Workshop",
       "date": "Mon, Dec 2, 2024",
       "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_1117211839.png"
-    },
-    {
-      "name": "Gingerbread & Jazz (Jazz@ x VisArts)",
-      "date": "Mon, Dec 2, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4622283_1_1120142958.png"
     }
   ],
-  "last_updated": "2025-11-04 00:44:07.785694"
+  "last_updated": "2025-11-05 00:45:29.805645"
 }
