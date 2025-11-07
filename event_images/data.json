@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Nov 5, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "\"Healer's Journey\" Brown Gallery Exhibit Opening",
       "date": "Thu, Nov 6, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Caitlin_Gallery_Aframe_102316468.png"
@@ -123,6 +118,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Nov 5, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -319,12 +319,7 @@
       "name": "January Brown Gallery Opening",
       "date": "Fri, Jan 17, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_January_Brown_Gallery_Duke_Groups_19174235.png"
-    },
-    {
-      "name": "VisArts Figure Drawing Workshop",
-      "date": "Mon, Dec 2, 2024",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2024/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_1117211839.png"
     }
   ],
-  "last_updated": "2025-11-06 00:44:17.185813"
+  "last_updated": "2025-11-07 00:44:33.006525"
 }
