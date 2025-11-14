@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Nov 12, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Printed Pulse Festival",
       "date": "Fri, Nov 14, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2020/r2_image_upload_1804760_DUU_Activities_Fair_Zoom_Backgroundjpg_82014034.jpeg"
@@ -103,6 +98,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Nov 12, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -299,12 +299,7 @@
       "name": "DUU VisArts Figure Drawing Workshop",
       "date": "Mon, Feb 10, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_11016223.png"
-    },
-    {
-      "name": "Durham Children's Art Gallery Opening",
-      "date": "Fri, Feb 7, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Childrens_Art_Exhibit_Duke_Groups_12816426.png"
     }
   ],
-  "last_updated": "2025-11-13 00:44:40.148307"
+  "last_updated": "2025-11-14 00:45:22.656441"
 }
