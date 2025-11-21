@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Nov 19, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Gingerbread & Jazz",
       "date": "Thu, Nov 20, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Gingerbread_and_Jazz_10291277.png"
@@ -83,6 +78,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Nov 19, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -279,12 +279,7 @@
       "name": "VisArts Knitting Workshop",
       "date": "Tue, Feb 18, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Knitting_Workshop_Duke_Groups4_211152415.png"
-    },
-    {
-      "name": "DUU VisArts Figure Drawing Workshop",
-      "date": "Mon, Feb 17, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_11016250.png"
     }
   ],
-  "last_updated": "2025-11-20 00:43:49.996081"
+  "last_updated": "2025-11-21 00:44:05.291403"
 }
