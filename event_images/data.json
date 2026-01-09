@@ -2,11 +2,6 @@
   "data": [
     {
       "name": "VisArts Committee Meeting",
-      "date": "Wed, Jan 7, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "VisArts Committee Meeting",
       "date": "Wed, Jan 14, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
@@ -68,6 +63,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Jan 7, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -264,12 +264,7 @@
       "name": "DUU VisArts Figure Drawing Workshop",
       "date": "Mon, Mar 3, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110163227.png"
-    },
-    {
-      "name": "\"The Iranian Woman\" Brown Gallery Exhibit",
-      "date": "Sat, Mar 1, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_The_Iranian_Woman_Brown_Art_Gallery_25_760_x_380_px_225203415.png"
     }
   ],
-  "last_updated": "2026-01-08 00:50:09.111821"
+  "last_updated": "2026-01-09 00:50:05.846853"
 }
