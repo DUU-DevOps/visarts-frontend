@@ -11,14 +11,29 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Jan 26, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111222212.jpeg"
+    },
+    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Jan 28, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
+      "name": "Knitting Workshop",
+      "date": "Mon, Feb 2, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_111223831.jpeg"
+    },
+    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Feb 4, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Feb 9, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111222456.jpeg"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -31,14 +46,29 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Feb 23, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122275.jpeg"
+    },
+    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Feb 25, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
+      "name": "Knitting Workshop",
+      "date": "Mon, Mar 2, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_111224736.jpeg"
+    },
+    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Mar 4, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Mar 16, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122297.jpeg"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -51,6 +81,11 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Mar 30, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111223111.jpeg"
+    },
+    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
@@ -59,6 +94,16 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 8, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Knitting Workshop",
+      "date": "Mon, Apr 13, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_11122500.jpeg"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Apr 13, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122339.jpeg"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -266,5 +311,5 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110163227.png"
     }
   ],
-  "last_updated": "2026-01-12 00:52:58.616567"
+  "last_updated": "2026-01-14 00:52:13.713542"
 }
