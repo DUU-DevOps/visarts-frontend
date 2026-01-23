@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Jan 21, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Jan 26, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111222212.jpeg"
@@ -103,6 +98,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Jan 21, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -299,12 +299,7 @@
       "name": "VisArts Knitting Workshop",
       "date": "Tue, Mar 18, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_5_114152416.png"
-    },
-    {
-      "name": "VisArts Candle Decorating",
-      "date": "Thu, Mar 6, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Candle_Painting_DG_1_224173522.png"
     }
   ],
-  "last_updated": "2026-01-22 00:50:11.130525"
+  "last_updated": "2026-01-23 00:51:33.004825"
 }
