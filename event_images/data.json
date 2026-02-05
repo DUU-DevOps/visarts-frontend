@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Feb 4, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Feb 9, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111222456.jpeg"
@@ -93,6 +88,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Feb 4, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -289,12 +289,7 @@
       "name": "Watercolor in the Gardens",
       "date": "Thu, Mar 27, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Watercolor_in_the_Gardens_DG_318153512.png"
-    },
-    {
-      "name": "DUU VisArts Figure Drawing Workshop",
-      "date": "Mon, Mar 24, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110164111.png"
     }
   ],
-  "last_updated": "2026-02-04 00:58:06.936838"
+  "last_updated": "2026-02-05 01:00:13.102623"
 }
