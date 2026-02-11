@@ -37,13 +37,7 @@ const MeetUs = ({ people }: {
         setOpened(true);
     }
     people.sort((a, b) => {
-        if (a.name > b.name || a.name === undefined) {
-            return 1;
-        }
-        if (a.name < b.name || b.name === undefined) {
-            return -1;
-        }
-        return 0;
+        return (a.order || 0) - (b.order || 0);
     });
     return (
         <Center>
