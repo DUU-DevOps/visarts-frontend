@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Romcom Night",
-      "date": "Thu, Feb 12, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_ROMCOM_Night_DUKEGROUPS_21133958.png"
-    },
-    {
       "name": "Knitting Workshop",
       "date": "Mon, Feb 16, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_111223831.jpeg"
@@ -79,6 +74,11 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Romcom Night",
+      "date": "Thu, Feb 12, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_ROMCOM_Night_DUKEGROUPS_21133958.png"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -274,12 +274,7 @@
       "name": "DUU VisArts Figure Drawing Workshop",
       "date": "Mon, Apr 7, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110164750.png"
-    },
-    {
-      "name": "Disney Night: The Princess and the Frog",
-      "date": "Thu, Apr 3, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4080960_32EC88E024394C58AE94B77B530536A6_4311489.jpeg"
     }
   ],
-  "last_updated": "2026-02-13 01:06:47.818893"
+  "last_updated": "2026-02-14 00:59:56.927900"
 }
