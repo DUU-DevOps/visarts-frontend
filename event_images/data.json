@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Knitting Workshop",
-      "date": "Mon, Feb 16, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_111223831.jpeg"
-    },
-    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Feb 18, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
@@ -74,6 +69,11 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Knitting Workshop",
+      "date": "Mon, Feb 16, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_111223831.jpeg"
     },
     {
       "name": "Romcom Night",
@@ -269,12 +269,7 @@
       "name": "UEU Brown Gallery Opening",
       "date": "Thu, Apr 10, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_UEU_Brown_Gallery_DG2_4211558.png"
-    },
-    {
-      "name": "DUU VisArts Figure Drawing Workshop",
-      "date": "Mon, Apr 7, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110164750.png"
     }
   ],
-  "last_updated": "2026-02-16 01:03:02.377729"
+  "last_updated": "2026-02-17 01:01:45.065432"
 }
