@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Feb 18, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Feb 23, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122275.jpeg"
@@ -68,6 +63,11 @@
     {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Feb 18, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
@@ -264,12 +264,7 @@
       "name": "Bob Ross Canvas Painting",
       "date": "Sat, Apr 12, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Copy_of_Bob_Ross_Painting_760_x_380_px2_31816270.png"
-    },
-    {
-      "name": "UEU Brown Gallery Opening",
-      "date": "Thu, Apr 10, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_UEU_Brown_Gallery_DG2_4211558.png"
     }
   ],
-  "last_updated": "2026-02-18 01:03:59.857720"
+  "last_updated": "2026-02-19 01:03:00.765197"
 }
