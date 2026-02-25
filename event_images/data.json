@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Feb 23, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122275.jpeg"
-    },
-    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Feb 25, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
@@ -69,6 +64,11 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Feb 23, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122275.jpeg"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -264,12 +264,7 @@
       "name": "DUU VisArts Figure Drawing Workshop",
       "date": "Mon, Apr 14, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Figure_Drawing_DukeGroups2_110165527.png"
-    },
-    {
-      "name": "Bob Ross Canvas Painting",
-      "date": "Sat, Apr 12, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4635371_Copy_of_Bob_Ross_Painting_760_x_380_px2_31816270.png"
     }
   ],
-  "last_updated": "2026-02-24 01:00:29.376464"
+  "last_updated": "2026-02-25 01:05:56.209831"
 }
