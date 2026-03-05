@@ -1,16 +1,6 @@
 {
   "data": [
     {
-      "name": "CALIBRATION + COMPENDIUM Exhibition",
-      "date": "Wed, Mar 4, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_INSTA_March_Brown_Gallery_2026_221165921.png"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Mar 4, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Mar 16, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122297.jpeg"
@@ -54,6 +44,16 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Mar 4, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "CALIBRATION + COMPENDIUM Exhibition",
+      "date": "Wed, Mar 4, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_INSTA_March_Brown_Gallery_2026_221165921.png"
     },
     {
       "name": "Knitting Workshop",
@@ -244,17 +244,7 @@
       "name": "Knitting Workshop",
       "date": "Mon, Sep 15, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_94213436.jpeg"
-    },
-    {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Sep 8, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91162829.jpeg"
-    },
-    {
-      "name": "VisArts Flower Crown Making",
-      "date": "Wed, Apr 23, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_4080287_8_46233330.png"
     }
   ],
-  "last_updated": "2026-03-04 00:59:10.575928"
+  "last_updated": "2026-03-05 01:01:19.938865"
 }
