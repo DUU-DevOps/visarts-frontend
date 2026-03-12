@@ -6,9 +6,19 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122297.jpeg"
     },
     {
+      "name": "Flower Pressing",
+      "date": "Wed, Mar 18, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Flower_Pressing_318_BANNER_310121339.png"
+    },
+    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Mar 18, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Paint & Plant",
+      "date": "Wed, Mar 25, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Paint_Plant_2240_x_1260_px_310121725.png"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -39,6 +49,11 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Apr 13, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122339.jpeg"
+    },
+    {
+      "name": "Birdhouse Painting",
+      "date": "Wed, Apr 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Birdhouse_Painting_event_2240_x_1260_px_310122044.png"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -246,5 +261,5 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_94213436.jpeg"
     }
   ],
-  "last_updated": "2026-03-11 00:57:42.060809"
+  "last_updated": "2026-03-12 00:54:27.017197"
 }
