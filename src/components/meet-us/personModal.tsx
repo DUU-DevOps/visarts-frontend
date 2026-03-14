@@ -14,8 +14,17 @@ const PersonModal = ({ person, opened, close, title }:
         close: () => void,
         title: string
     }) => {
+
+    const imageSrc =
+        person?.image?.asset
+            ? grabImage(person.image)
+            : '/blank-avatar.webp'
+
     return (
-            <Modal opened={opened} onClose={close} size="xl" 
+        <Modal
+            opened={opened}
+            onClose={close}
+            size="xl"
             styles={{
                 body: {
                     backgroundColor: 'var(--mantine-color-body)'
@@ -26,30 +35,31 @@ const PersonModal = ({ person, opened, close, title }:
                 close: {
                     color: 'var(--mantine-color-gray-9)',
                 }
-            }}>
-                <Card
-                padding="xl"
-                bg='transparent'
-                >
+            }}
+        >
+            <Card padding="xl" bg="transparent">
                 <CardSection>
                     <Image
-                    src={person.image && person.image.asset ? grabImage(person.image) : './blank-avatar.webp'}
-                    alt={person.name}
-                    height={300}
-                    fit="contain"
+                        src={imageSrc}
+                        alt={person.name}
+                        h={300}
+                        fit="contain"
                     />
                 </CardSection>
-                <Title order={3}  mt="xl" c="gray.9" fw="600">
+
+                <Title order={3} mt="xl" c="gray.9" fw="600">
                     {person.name}
                 </Title>
+
                 <Text mt="xs" size="lg" c="gray.7">
                     {person.title}
                 </Text>
+
                 <Text mt="md" c="gray.8" bg="var(--mantine-color-primary-1)" p={10}>
                     {person.bio}
                 </Text>
-                </Card>
-            </Modal>
+            </Card>
+        </Modal>
     )
 }
 
