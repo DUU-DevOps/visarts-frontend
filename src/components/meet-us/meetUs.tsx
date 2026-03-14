@@ -11,7 +11,8 @@ const MeetUs = ({ people }: {
         bio: string
         title: string,
         image: object,
-        order: number
+        order: number,
+        section?: string
     }[]
 }) => {
     const emptyPerson = {
@@ -19,7 +20,8 @@ const MeetUs = ({ people }: {
         bio: '',
         title: '',
         image: {},
-        order: 0
+        order: 0,
+        section: ''
     }
     const [opened, setOpened] = useState(false);
     const [selected, setSelected] = useState(emptyPerson);
@@ -31,23 +33,52 @@ const MeetUs = ({ people }: {
         bio: string
         title: string,
         image: object,
-        order: number
+        order: number,
+        section?: string
     }) => {
         setSelected(person);
         setOpened(true);
     }
+
     people.sort((a, b) => {
         return (a.order || 0) - (b.order || 0);
     });
+
+    const chairPeople = people.filter((person) => person.section === 'chair');
+    const execPeople = people.filter((person) => person.section === 'exec');
+    const committeePeople = people.filter((person) => person.section === 'member');
+
     return (
         <Center>
-            <Grid gutter="none" mr="0" pr="0" w="100%">
-                {people && people.length > 0 && people.map((person: any, key: any) => (
-                    <GridCol span={{ base: 6, sm: 6, md: 3, lg: 2, xl: 2 }} p={20} key={key} style={{ display: 'flex', justifyContent: 'center' }}>
-                        <PersonCard person={person} key={key} onClick={() => handleOpen(person)} />
-                    </GridCol>
-                ))}
-            </Grid>
+            <div style={{ width: '100%' }}>
+                <h2 style={{ marginLeft: '20px' }}>VisArts Chair</h2>
+                <Grid gutter="none" mr="0" pr="0" w="100%">
+                    {chairPeople.map((person: any, key: any) => (
+                        <GridCol span={{ base: 6, sm: 6, md: 3, lg: 2, xl: 2 }} p={20} key={key} style={{ display: 'flex', justifyContent: 'center' }}>
+                            <PersonCard person={person} onClick={() => handleOpen(person)} />
+                        </GridCol>
+                    ))}
+                </Grid>
+
+                <h2 style={{ marginLeft: '20px' }}>Executive Board</h2>
+                <Grid gutter="none" mr="0" pr="0" w="100%">
+                    {execPeople.map((person: any, key: any) => (
+                        <GridCol span={{ base: 6, sm: 6, md: 3, lg: 2, xl: 2 }} p={20} key={key} style={{ display: 'flex', justifyContent: 'center' }}>
+                            <PersonCard person={person} onClick={() => handleOpen(person)} />
+                        </GridCol>
+                    ))}
+                </Grid>
+
+                <h2 style={{ marginLeft: '20px' }}>Committee Members</h2>
+                <Grid gutter="none" mr="0" pr="0" w="100%">
+                    {committeePeople.map((person: any, key: any) => (
+                        <GridCol span={{ base: 6, sm: 6, md: 3, lg: 2, xl: 2 }} p={20} key={key} style={{ display: 'flex', justifyContent: 'center' }}>
+                            <PersonCard person={person} onClick={() => handleOpen(person)} />
+                        </GridCol>
+                    ))}
+                </Grid>
+            </div>
+
             {selected &&
                 <PersonModal person={selected} opened={opened} close={handleClose} title="About" />
             }
