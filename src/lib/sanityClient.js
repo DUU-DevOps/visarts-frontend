@@ -1,21 +1,17 @@
-
-const PROJECT_ID = process.env.PROJECT_ID
-const DATASET = process.env.DATASET
+const PROJECT_ID = process.env.NEXT_PUBLIC_PROJECT_ID || 'iwi3amti'
+const DATASET = process.env.NEXT_PUBLIC_DATASET || 'production'
 
 export function createURL(type) {
   let QUERY = encodeURIComponent(`*[_type == "${type}"] | order(order asc)`);
   let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/production?query=${QUERY}`;
-  // To test url: https://iwi3amti.api.sanity.io/v2021-10-21/data/query/production?query=${QUERY}
   return url;
 }
-
 
 export function createURLById(type, itemId) {
   let QUERY = encodeURIComponent(`*[_type == "${type}" && _id == "${itemId}"]`);
   let url = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
   return url;
 }
-
 
 export function grabImage(source) {
   const link = source.asset._ref.slice(6, source.asset._ref.lastIndexOf('-'));
