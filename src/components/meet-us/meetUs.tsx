@@ -12,7 +12,7 @@ const MeetUs = ({ people }: {
         title: string,
         image: object,
         order: number,
-        section?: string
+        section: string
     }[]
 }) => {
     const emptyPerson = {
@@ -34,7 +34,7 @@ const MeetUs = ({ people }: {
         title: string,
         image: object,
         order: number,
-        section?: string
+        section: string
     }) => {
         setSelected(person);
         setOpened(true);
