@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Mar 16, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122297.jpeg"
-    },
-    {
       "name": "Flower Pressing",
       "date": "Wed, Mar 18, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Flower_Pressing_318_BANNER_310121339.png"
@@ -59,6 +54,11 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Mar 16, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122297.jpeg"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -254,12 +254,7 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Sep 22, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145250.jpeg"
-    },
-    {
-      "name": "Knitting Workshop",
-      "date": "Mon, Sep 15, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_94213436.jpeg"
     }
   ],
-  "last_updated": "2026-03-16 01:09:15.561590"
+  "last_updated": "2026-03-17 01:01:38.578777"
 }
