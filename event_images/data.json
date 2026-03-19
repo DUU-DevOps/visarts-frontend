@@ -1,16 +1,6 @@
 {
   "data": [
     {
-      "name": "Flower Pressing",
-      "date": "Wed, Mar 18, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Flower_Pressing_318_BANNER_310121339.png"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Mar 18, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Paint & Plant",
       "date": "Wed, Mar 25, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Paint_Plant_2240_x_1260_px_310121725.png"
@@ -54,6 +44,16 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Mar 18, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Flower Pressing",
+      "date": "Wed, Mar 18, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Flower_Pressing_318_BANNER_310121339.png"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -244,17 +244,7 @@
       "name": "Taylor Swift Night",
       "date": "Thu, Oct 2, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_TS_Night_DukeGroups_921143031.png"
-    },
-    {
-      "name": "\"Made at the Arts Annex\" Brown Gallery Exhibit Opening",
-      "date": "Wed, Oct 1, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Arts_Annex_Gallery_DukeGroups_Photojpg_919194619.jpeg"
-    },
-    {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Sep 22, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_91145250.jpeg"
     }
   ],
-  "last_updated": "2026-03-18 01:06:02.723474"
+  "last_updated": "2026-03-19 01:04:59.208611"
 }
