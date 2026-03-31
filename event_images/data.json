@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Mar 30, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111223111.jpeg"
-    },
-    {
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
@@ -39,6 +34,11 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Apr 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Mar 30, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111223111.jpeg"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -234,12 +234,7 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Oct 15, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "Harry Potter Night",
-      "date": "Thu, Oct 9, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Harry_Potter_Night_921144250.png"
     }
   ],
-  "last_updated": "2026-03-30 01:12:49.071877"
+  "last_updated": "2026-03-31 01:10:34.885677"
 }
