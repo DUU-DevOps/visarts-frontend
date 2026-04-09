@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Apr 8, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
       "name": "Brown Gallery \"Monstrous Dreams: Y\u014dkai of Japan\" Exhibit",
       "date": "Thu, Apr 9, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Duke_Groups_April_Brown_Gallery_2026_24_x_24_in_1_325231843.png"
@@ -34,6 +29,11 @@
       "name": "VisArts Sunglasses Decorating",
       "date": "Wed, Apr 22, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5147033_2_43132123.png"
+    },
+    {
+      "name": "VisArts Committee Meeting",
+      "date": "Wed, Apr 8, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     },
     {
       "name": "VisArts Committee Meeting",
@@ -229,12 +229,7 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Oct 22, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Oct 20, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9114589.jpeg"
     }
   ],
-  "last_updated": "2026-04-08 01:12:07.971110"
+  "last_updated": "2026-04-09 01:02:01.259225"
 }
