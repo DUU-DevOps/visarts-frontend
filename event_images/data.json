@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "\"Where Time Is Framed\" Brown Gallery Exhibit Opening",
-      "date": "Wed, Sep 2, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_1_Well_Spokenjpg_0b5b116a-4d68-41a3-b84c-32e69b04dd10_814182024.jpeg"
-    },
-    {
       "name": "Dorm Decorating",
       "date": "Tue, Sep 8, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_DormTherapy_2025027altwebp_b68161b8-0d3d-44bc-bc7e-57b32244d2dd_81923942.jpeg"
@@ -29,6 +24,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "\"Where Time Is Framed\" Brown Gallery Exhibit Opening",
+      "date": "Wed, Sep 2, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_1_Well_Spokenjpg_0b5b116a-4d68-41a3-b84c-32e69b04dd10_814182024.jpeg"
     },
     {
       "name": "VisArts Sunglasses Decorating",
@@ -224,12 +224,7 @@
       "name": "\"Healer's Journey\" Brown Gallery Exhibit Opening",
       "date": "Thu, Nov 6, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Caitlin_Gallery_Aframe_102316468.png"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Nov 5, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     }
   ],
-  "last_updated": "2026-09-02 01:38:07.102520"
+  "last_updated": "2026-09-03 01:42:31.244630"
 }
