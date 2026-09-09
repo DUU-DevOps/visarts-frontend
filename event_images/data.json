@@ -1,14 +1,14 @@
 {
   "data": [
     {
-      "name": "Dorm Decorating",
-      "date": "Tue, Sep 8, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_DormTherapy_2025027altwebp_b68161b8-0d3d-44bc-bc7e-57b32244d2dd_81923942.jpeg"
-    },
-    {
       "name": "Knitting Workshop",
       "date": "Tue, Sep 15, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260821_at_123352_PM_a533a4a6-aefd-4e2e-ab2a-8944ae64a7dc_821123945.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Sep 28, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_a892cad2-1734-45fb-815d-b1a1b417c180_973167.png"
     },
     {
       "name": "Knitting Workshop",
@@ -16,14 +16,39 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__f8275a63-faaa-4791-9e88-2de64970b193_82614321.png"
     },
     {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Oct 19, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_b553a72a-d3e4-4403-9020-42fb46e808c4_9732227.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Nov 2, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_67cfa53b-1dee-43ba-9f7e-6999abbcedd0_9732543.png"
+    },
+    {
       "name": "Knitting Workshop",
       "date": "Wed, Nov 4, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__da9c040a-abff-4b57-b231-d50915973657_82614547.png"
     },
     {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Nov 16, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_48533372-72de-4055-9221-bebef865afe7_9732750.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Nov 30, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_d57de4dc-249a-4f68-8d02-9af1c1572421_9732953.png"
+    },
+    {
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "Dorm Decorating",
+      "date": "Tue, Sep 8, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_DormTherapy_2025027altwebp_b68161b8-0d3d-44bc-bc7e-57b32244d2dd_81923942.jpeg"
     },
     {
       "name": "\"Where Time Is Framed\" Brown Gallery Exhibit Opening",
@@ -219,12 +244,7 @@
       "name": "Space Night",
       "date": "Fri, Nov 7, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251030_at_65051PM_1030185141.png"
-    },
-    {
-      "name": "\"Healer's Journey\" Brown Gallery Exhibit Opening",
-      "date": "Thu, Nov 6, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Caitlin_Gallery_Aframe_102316468.png"
     }
   ],
-  "last_updated": "2026-09-08 01:39:51.043397"
+  "last_updated": "2026-09-09 01:47:02.691292"
 }
