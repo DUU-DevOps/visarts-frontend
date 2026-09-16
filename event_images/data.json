@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Knitting Workshop",
-      "date": "Tue, Sep 15, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260821_at_123352_PM_a533a4a6-aefd-4e2e-ab2a-8944ae64a7dc_821123945.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Sep 28, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_a892cad2-1734-45fb-815d-b1a1b417c180_973167.png"
@@ -44,6 +39,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "Knitting Workshop",
+      "date": "Tue, Sep 15, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260821_at_123352_PM_a533a4a6-aefd-4e2e-ab2a-8944ae64a7dc_821123945.png"
     },
     {
       "name": "Dorm Decorating",
@@ -234,12 +234,7 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Nov 12, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "Candles and Caramel Apples",
-      "date": "Wed, Nov 12, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Candles_and_Caramel_Apples_INSTA_1029111320.png"
     }
   ],
-  "last_updated": "2026-09-15 02:05:03.503155"
+  "last_updated": "2026-09-16 01:56:28.928284"
 }
