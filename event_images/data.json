@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "One Pulse: Enviro-Art Gallery",
-      "date": "Mon, Oct 5, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_86ceda7c684c49a1b74ccfe2ace5f6e1jpg_ff159764-0200-4489-9c90-5437ef1b1bc7_923175931.jpeg"
-    },
-    {
       "name": "Knitting Workshop",
       "date": "Tue, Oct 6, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__f8275a63-faaa-4791-9e88-2de64970b193_82614321.png"
@@ -44,6 +39,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "One Pulse: Enviro-Art Gallery",
+      "date": "Mon, Oct 5, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_86ceda7c684c49a1b74ccfe2ace5f6e1jpg_ff159764-0200-4489-9c90-5437ef1b1bc7_923175931.jpeg"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -219,12 +219,7 @@
       "name": "Gingerbread & Jazz",
       "date": "Thu, Nov 20, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Gingerbread_and_Jazz_10291277.png"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Nov 19, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     }
   ],
-  "last_updated": "2026-10-05 02:37:17.183292"
+  "last_updated": "2026-10-06 03:30:41.661162"
 }
