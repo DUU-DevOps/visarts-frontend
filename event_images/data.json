@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Knitting Workshop",
-      "date": "Tue, Oct 6, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__f8275a63-faaa-4791-9e88-2de64970b193_82614321.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Oct 19, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_b553a72a-d3e4-4403-9020-42fb46e808c4_9732227.png"
@@ -39,6 +34,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "Knitting Workshop",
+      "date": "Tue, Oct 6, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__f8275a63-faaa-4791-9e88-2de64970b193_82614321.png"
     },
     {
       "name": "One Pulse: Enviro-Art Gallery",
@@ -214,12 +214,7 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Dec 1, 2025",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Image_9119357.jpeg"
-    },
-    {
-      "name": "Gingerbread & Jazz",
-      "date": "Thu, Nov 20, 2025",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Gingerbread_and_Jazz_10291277.png"
     }
   ],
-  "last_updated": "2026-10-06 03:30:41.661162"
+  "last_updated": "2026-10-07 03:03:07.268035"
 }
