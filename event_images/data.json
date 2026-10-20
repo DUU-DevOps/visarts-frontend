@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Oct 19, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_b553a72a-d3e4-4403-9020-42fb46e808c4_9732227.png"
-    },
-    {
       "name": "Find Your Soul: Movie Night at Coffeehouse!",
       "date": "Sun, Oct 25, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5162636_images_90157PMjpg_c7c5b42d-da0c-4036-87e5-f2739b43766c_922234339.jpeg"
@@ -34,6 +29,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Oct 19, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_b553a72a-d3e4-4403-9020-42fb46e808c4_9732227.png"
     },
     {
       "name": "Harry Potter Make-A-Wand",
@@ -199,12 +199,7 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Jan 28, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Jan 21, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     }
   ],
-  "last_updated": "2026-10-19 02:02:26.353553"
+  "last_updated": "2026-10-20 02:19:17.000953"
 }
