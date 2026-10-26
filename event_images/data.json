@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Find Your Soul: Movie Night at Coffeehouse!",
-      "date": "Sun, Oct 25, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5162636_images_90157PMjpg_c7c5b42d-da0c-4036-87e5-f2739b43766c_922234339.jpeg"
-    },
-    {
       "name": "DUU Fright Fest",
       "date": "Thu, Oct 29, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_4635371_1_0d54ab53-ba67-4c7c-ba16-fbd4c67256ac_1021211520.png"
@@ -44,6 +39,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "Find Your Soul: Movie Night at Coffeehouse!",
+      "date": "Sun, Oct 25, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5162636_images_90157PMjpg_c7c5b42d-da0c-4036-87e5-f2739b43766c_922234339.jpeg"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -204,12 +204,7 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Feb 9, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111222456.jpeg"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Feb 4, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     }
   ],
-  "last_updated": "2026-10-25 01:57:07.456407"
+  "last_updated": "2026-10-26 01:58:48.309005"
 }
