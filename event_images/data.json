@@ -1,6 +1,26 @@
 {
   "data": [
     {
+      "name": "Fright Fest Face Painting",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_cedd782a-1532-4b6e-94e8-350002058d10_1026153719.jpeg"
+    },
+    {
+      "name": "Fright Fest Tote Bags",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_fc7d0d5d-ae5e-4103-bbe2-ffff1a6cab71_1026153447.jpeg"
+    },
+    {
+      "name": "Fright Fest Pumpkin Painting",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_09e20f4d-dc7b-4939-aeec-d9f046c221eb_1026153230.jpeg"
+    },
+    {
+      "name": "Fright Fest Cookie Decorating",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_download_c75c410f-f132-4ff3-a21e-12bd168839c2_1026152542.jpeg"
+    },
+    {
       "name": "DUU Fright Fest",
       "date": "Thu, Oct 29, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_4635371_1_0d54ab53-ba67-4c7c-ba16-fbd4c67256ac_1021211520.png"
@@ -206,5 +226,5 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_111222456.jpeg"
     }
   ],
-  "last_updated": "2026-10-26 01:58:48.309005"
+  "last_updated": "2026-10-27 02:36:23.964707"
 }
