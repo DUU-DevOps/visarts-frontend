@@ -1,31 +1,6 @@
 {
   "data": [
     {
-      "name": "Fright Fest Face Painting",
-      "date": "Thu, Oct 29, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_cedd782a-1532-4b6e-94e8-350002058d10_1026153719.jpeg"
-    },
-    {
-      "name": "Fright Fest Tote Bags",
-      "date": "Thu, Oct 29, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_fc7d0d5d-ae5e-4103-bbe2-ffff1a6cab71_1026153447.jpeg"
-    },
-    {
-      "name": "Fright Fest Pumpkin Painting",
-      "date": "Thu, Oct 29, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_09e20f4d-dc7b-4939-aeec-d9f046c221eb_1026153230.jpeg"
-    },
-    {
-      "name": "Fright Fest Cookie Decorating",
-      "date": "Thu, Oct 29, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_download_c75c410f-f132-4ff3-a21e-12bd168839c2_1026152542.jpeg"
-    },
-    {
-      "name": "DUU Fright Fest",
-      "date": "Thu, Oct 29, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_4635371_1_0d54ab53-ba67-4c7c-ba16-fbd4c67256ac_1021211520.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Nov 2, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_67cfa53b-1dee-43ba-9f7e-6999abbcedd0_9732543.png"
@@ -59,6 +34,31 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "Fright Fest Face Painting",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_cedd782a-1532-4b6e-94e8-350002058d10_1026153719.jpeg"
+    },
+    {
+      "name": "Fright Fest Tote Bags",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_fc7d0d5d-ae5e-4103-bbe2-ffff1a6cab71_1026153447.jpeg"
+    },
+    {
+      "name": "Fright Fest Pumpkin Painting",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_downloadjpg_09e20f4d-dc7b-4939-aeec-d9f046c221eb_1026153230.jpeg"
+    },
+    {
+      "name": "Fright Fest Cookie Decorating",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_download_c75c410f-f132-4ff3-a21e-12bd168839c2_1026152542.jpeg"
+    },
+    {
+      "name": "DUU Fright Fest",
+      "date": "Thu, Oct 29, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_4635371_1_0d54ab53-ba67-4c7c-ba16-fbd4c67256ac_1021211520.png"
     },
     {
       "name": "Find Your Soul: Movie Night at Coffeehouse!",
@@ -194,32 +194,7 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Feb 23, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122275.jpeg"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Feb 18, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "Knitting Workshop",
-      "date": "Mon, Feb 16, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_111223831.jpeg"
-    },
-    {
-      "name": "Romcom Night",
-      "date": "Thu, Feb 12, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_ROMCOM_Night_DUKEGROUPS_21133958.png"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Feb 11, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "Children's Art Exhibit Opening",
-      "date": "Wed, Feb 11, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Banner_Childrens_Gallery_Feb_2026_2240_x_1260_pxjpg_111235716.jpeg"
     }
   ],
-  "last_updated": "2026-10-29 03:05:43.105266"
+  "last_updated": "2026-10-30 03:09:49.746955"
 }
