@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Nov 2, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_67cfa53b-1dee-43ba-9f7e-6999abbcedd0_9732543.png"
-    },
-    {
       "name": "Knitting Workshop",
       "date": "Wed, Nov 4, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__da9c040a-abff-4b57-b231-d50915973657_82614547.png"
@@ -21,6 +16,11 @@
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5162636_178c2a0f654a66eda07ca098fa243728b6bc7c5f4359863860e12c50be3b8e39jpg_7384634a-8a13-458c-ad39-fa49f8a396c9_1023145816.jpeg"
     },
     {
+      "name": "The Artist I Am Becoming Gallery Reception",
+      "date": "Tue, Nov 10, 2026",
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
+    },
+    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Nov 16, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_48533372-72de-4055-9221-bebef865afe7_9732750.png"
@@ -34,6 +34,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "Figure Drawing Workshop",
+      "date": "Mon, Nov 2, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_67cfa53b-1dee-43ba-9f7e-6999abbcedd0_9732543.png"
     },
     {
       "name": "Fright Fest Face Painting",
@@ -189,12 +194,7 @@
       "name": "VisArts Committee Meeting",
       "date": "Wed, Feb 25, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Feb 23, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122275.jpeg"
     }
   ],
-  "last_updated": "2026-11-02 02:56:53.631801"
+  "last_updated": "2026-11-03 04:14:44.324342"
 }
