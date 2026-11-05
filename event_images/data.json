@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "Knitting Workshop",
-      "date": "Wed, Nov 4, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__da9c040a-abff-4b57-b231-d50915973657_82614547.png"
-    },
-    {
       "name": "Escape to La La Land",
       "date": "Fri, Nov 6, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_images_1_17c76768-8812-4985-b787-8e4c86313357_1021235739.jpeg"
@@ -34,6 +29,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "Knitting Workshop",
+      "date": "Wed, Nov 4, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__da9c040a-abff-4b57-b231-d50915973657_82614547.png"
     },
     {
       "name": "Figure Drawing Workshop",
@@ -184,17 +184,7 @@
       "name": "CALIBRATION + COMPENDIUM Exhibition",
       "date": "Wed, Mar 4, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_INSTA_March_Brown_Gallery_2026_221165921.png"
-    },
-    {
-      "name": "Knitting Workshop",
-      "date": "Mon, Mar 2, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_4e1bc55e7c37a7fb4099239222da7906bd3462156960x4640jpgavif_111224736.jpeg"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Feb 25, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
     }
   ],
-  "last_updated": "2026-11-04 03:33:14.461342"
+  "last_updated": "2026-11-05 03:54:17.075002"
 }
