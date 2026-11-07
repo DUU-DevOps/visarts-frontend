@@ -1,16 +1,6 @@
 {
   "data": [
     {
-      "name": "Escape to La La Land",
-      "date": "Fri, Nov 6, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_images_1_17c76768-8812-4985-b787-8e4c86313357_1021235739.jpeg"
-    },
-    {
-      "name": "LaLa Land Screening",
-      "date": "Fri, Nov 6, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5162636_178c2a0f654a66eda07ca098fa243728b6bc7c5f4359863860e12c50be3b8e39jpg_7384634a-8a13-458c-ad39-fa49f8a396c9_1023145816.jpeg"
-    },
-    {
       "name": "The Artist I Am Becoming Gallery Reception",
       "date": "Tue, Nov 10, 2026",
       "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
@@ -29,6 +19,16 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "LaLa Land Screening",
+      "date": "Fri, Nov 6, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5162636_178c2a0f654a66eda07ca098fa243728b6bc7c5f4359863860e12c50be3b8e39jpg_7384634a-8a13-458c-ad39-fa49f8a396c9_1023145816.jpeg"
+    },
+    {
+      "name": "Escape to La La Land",
+      "date": "Fri, Nov 6, 2026",
+      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_images_1_17c76768-8812-4985-b787-8e4c86313357_1021235739.jpeg"
     },
     {
       "name": "Knitting Workshop",
@@ -174,17 +174,7 @@
       "name": "Figure Drawing Workshop",
       "date": "Mon, Mar 16, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122297.jpeg"
-    },
-    {
-      "name": "VisArts Committee Meeting",
-      "date": "Wed, Mar 4, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2025/r2_image_upload_5152076_Screenshot_20251009_at_82204PM_109202242.png"
-    },
-    {
-      "name": "CALIBRATION + COMPENDIUM Exhibition",
-      "date": "Wed, Mar 4, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_INSTA_March_Brown_Gallery_2026_221165921.png"
     }
   ],
-  "last_updated": "2026-11-06 03:52:29.214279"
+  "last_updated": "2026-11-07 03:26:45.525210"
 }
