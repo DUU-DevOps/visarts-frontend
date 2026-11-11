@@ -1,11 +1,6 @@
 {
   "data": [
     {
-      "name": "The Artist I Am Becoming Gallery Reception",
-      "date": "Tue, Nov 10, 2026",
-      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
-    },
-    {
       "name": "Figure Drawing Workshop",
       "date": "Mon, Nov 16, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213_Screenshot_20260906_at_111238_PM_48533372-72de-4055-9221-bebef865afe7_9732750.png"
@@ -19,6 +14,11 @@
       "name": "Knitting Workshop",
       "date": "Tue, Dec 1, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5163213__aec29960-25a8-4443-b893-788ce2003f30_82614756.png"
+    },
+    {
+      "name": "The Artist I Am Becoming Gallery Reception",
+      "date": "Tue, Nov 10, 2026",
+      "img_link": "https://duke.campusgroups.com/images/groups/professional-02.png"
     },
     {
       "name": "LaLa Land Screening",
@@ -169,12 +169,7 @@
       "name": "Flower Pressing",
       "date": "Wed, Mar 18, 2026",
       "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Flower_Pressing_318_BANNER_310121339.png"
-    },
-    {
-      "name": "Figure Drawing Workshop",
-      "date": "Mon, Mar 16, 2026",
-      "img_link": "https://duke.campusgroups.com/upload/duke/2026/r2_image_upload_5152076_Image_11122297.jpeg"
     }
   ],
-  "last_updated": "2026-11-10 04:55:04.224970"
+  "last_updated": "2026-11-11 03:23:34.880780"
 }
